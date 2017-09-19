@@ -25,708 +25,126 @@ references:
 - uid: az_account_show
   name: az account show
   href: /cli/azure/account#az_account_show
-- uid: az_acr
-  name: az acr
-  href: /cli/azure/acr
-- uid: az_acr_check_name
-  name: az acr check-name
-  href: /cli/azure/acr#az_acr_check_name
-- uid: az_acr_create
-  name: az acr create
-  href: /cli/azure/acr#az_acr_create
-- uid: az_acr_credential
-  name: az acr credential
-  href: /cli/azure/acr/credential
-- uid: az_acr_credential_renew
-  name: az acr credential renew
-  href: /cli/azure/acr/credential#az_acr_credential_renew
-- uid: az_acr_credential_show
-  name: az acr credential show
-  href: /cli/azure/acr/credential#az_acr_credential_show
-- uid: az_acr_delete
-  name: az acr delete
-  href: /cli/azure/acr#az_acr_delete
-- uid: az_acr_list
-  name: az acr list
-  href: /cli/azure/acr#az_acr_list
-- uid: az_acr_login
-  name: az acr login
-  href: /cli/azure/acr#az_acr_login
-- uid: az_acr_repository
-  name: az acr repository
-  href: /cli/azure/acr/repository
-- uid: az_acr_repository_delete
-  name: az acr repository delete
-  href: /cli/azure/acr/repository#az_acr_repository_delete
-- uid: az_acr_repository_list
-  name: az acr repository list
-  href: /cli/azure/acr/repository#az_acr_repository_list
-- uid: az_acr_repository_show_manifests
-  name: az acr repository show-manifests
-  href: /cli/azure/acr/repository#az_acr_repository_show_manifests
-- uid: az_acr_repository_show_tags
-  name: az acr repository show-tags
-  href: /cli/azure/acr/repository#az_acr_repository_show_tags
-- uid: az_acr_show
-  name: az acr show
-  href: /cli/azure/acr#az_acr_show
-- uid: az_acr_show_usage
-  name: az acr show-usage
-  href: /cli/azure/acr#az_acr_show_usage
-- uid: az_acr_update
-  name: az acr update
-  href: /cli/azure/acr#az_acr_update
-- uid: az_acr_webhook
-  name: az acr webhook
-  href: /cli/azure/acr/webhook
-- uid: az_acr_webhook_create
-  name: az acr webhook create
-  href: /cli/azure/acr/webhook#az_acr_webhook_create
-- uid: az_acr_webhook_delete
-  name: az acr webhook delete
-  href: /cli/azure/acr/webhook#az_acr_webhook_delete
-- uid: az_acr_webhook_get_config
-  name: az acr webhook get-config
-  href: /cli/azure/acr/webhook#az_acr_webhook_get_config
-- uid: az_acr_webhook_list
-  name: az acr webhook list
-  href: /cli/azure/acr/webhook#az_acr_webhook_list
-- uid: az_acr_webhook_list_events
-  name: az acr webhook list-events
-  href: /cli/azure/acr/webhook#az_acr_webhook_list_events
-- uid: az_acr_webhook_ping
-  name: az acr webhook ping
-  href: /cli/azure/acr/webhook#az_acr_webhook_ping
-- uid: az_acr_webhook_show
-  name: az acr webhook show
-  href: /cli/azure/acr/webhook#az_acr_webhook_show
-- uid: az_acr_webhook_update
-  name: az acr webhook update
-  href: /cli/azure/acr/webhook#az_acr_webhook_update
-- uid: az_acs
-  name: az acs
-  href: /cli/azure/acs
-- uid: az_acs_browse
-  name: az acs browse
-  href: /cli/azure/acs#az_acs_browse
-- uid: az_acs_create
-  name: az acs create
-  href: /cli/azure/acs#az_acs_create
-- uid: az_acs_dcos
-  name: az acs dcos
-  href: /cli/azure/acs/dcos
-- uid: az_acs_dcos_browse
-  name: az acs dcos browse
-  href: /cli/azure/acs/dcos#az_acs_dcos_browse
-- uid: az_acs_dcos_install_cli
-  name: az acs dcos install-cli
-  href: /cli/azure/acs/dcos#az_acs_dcos_install_cli
-- uid: az_acs_delete
-  name: az acs delete
-  href: /cli/azure/acs#az_acs_delete
-- uid: az_acs_install_cli
-  name: az acs install-cli
-  href: /cli/azure/acs#az_acs_install_cli
-- uid: az_acs_kubernetes
-  name: az acs kubernetes
-  href: /cli/azure/acs/kubernetes
-- uid: az_acs_kubernetes_browse
-  name: az acs kubernetes browse
-  href: /cli/azure/acs/kubernetes#az_acs_kubernetes_browse
-- uid: az_acs_kubernetes_get_credentials
-  name: az acs kubernetes get-credentials
-  href: /cli/azure/acs/kubernetes#az_acs_kubernetes_get_credentials
-- uid: az_acs_kubernetes_install_cli
-  name: az acs kubernetes install-cli
-  href: /cli/azure/acs/kubernetes#az_acs_kubernetes_install_cli
-- uid: az_acs_list
-  name: az acs list
-  href: /cli/azure/acs#az_acs_list
-- uid: az_acs_scale
-  name: az acs scale
-  href: /cli/azure/acs#az_acs_scale
-- uid: az_acs_show
-  name: az acs show
-  href: /cli/azure/acs#az_acs_show
-- uid: az_acs_wait
-  name: az acs wait
-  href: /cli/azure/acs#az_acs_wait
-- uid: az_ad
-  name: az ad
-  href: /cli/azure/ad
-- uid: az_ad_app
-  name: az ad app
-  href: /cli/azure/ad/app
-- uid: az_ad_app_create
-  name: az ad app create
-  href: /cli/azure/ad/app#az_ad_app_create
-- uid: az_ad_app_delete
-  name: az ad app delete
-  href: /cli/azure/ad/app#az_ad_app_delete
-- uid: az_ad_app_list
-  name: az ad app list
-  href: /cli/azure/ad/app#az_ad_app_list
-- uid: az_ad_app_show
-  name: az ad app show
-  href: /cli/azure/ad/app#az_ad_app_show
-- uid: az_ad_app_update
-  name: az ad app update
-  href: /cli/azure/ad/app#az_ad_app_update
-- uid: az_ad_group
-  name: az ad group
-  href: /cli/azure/ad/group
-- uid: az_ad_group_create
-  name: az ad group create
-  href: /cli/azure/ad/group#az_ad_group_create
-- uid: az_ad_group_delete
-  name: az ad group delete
-  href: /cli/azure/ad/group#az_ad_group_delete
-- uid: az_ad_group_get_member_groups
-  name: az ad group get-member-groups
-  href: /cli/azure/ad/group#az_ad_group_get_member_groups
-- uid: az_ad_group_list
-  name: az ad group list
-  href: /cli/azure/ad/group#az_ad_group_list
-- uid: az_ad_group_member
-  name: az ad group member
-  href: /cli/azure/ad/group/member
-- uid: az_ad_group_member_add
-  name: az ad group member add
-  href: /cli/azure/ad/group/member#az_ad_group_member_add
-- uid: az_ad_group_member_check
-  name: az ad group member check
-  href: /cli/azure/ad/group/member#az_ad_group_member_check
-- uid: az_ad_group_member_list
-  name: az ad group member list
-  href: /cli/azure/ad/group/member#az_ad_group_member_list
-- uid: az_ad_group_member_remove
-  name: az ad group member remove
-  href: /cli/azure/ad/group/member#az_ad_group_member_remove
-- uid: az_ad_group_show
-  name: az ad group show
-  href: /cli/azure/ad/group#az_ad_group_show
-- uid: az_ad_sp
-  name: az ad sp
-  href: /cli/azure/ad/sp
-- uid: az_ad_sp_create
-  name: az ad sp create
-  href: /cli/azure/ad/sp#az_ad_sp_create
-- uid: az_ad_sp_create_for_rbac
-  name: az ad sp create-for-rbac
-  href: /cli/azure/ad/sp#az_ad_sp_create_for_rbac
-- uid: az_ad_sp_delete
-  name: az ad sp delete
-  href: /cli/azure/ad/sp#az_ad_sp_delete
-- uid: az_ad_sp_list
-  name: az ad sp list
-  href: /cli/azure/ad/sp#az_ad_sp_list
-- uid: az_ad_sp_reset_credentials
-  name: az ad sp reset-credentials
-  href: /cli/azure/ad/sp#az_ad_sp_reset_credentials
-- uid: az_ad_sp_show
-  name: az ad sp show
-  href: /cli/azure/ad/sp#az_ad_sp_show
-- uid: az_ad_user
-  name: az ad user
-  href: /cli/azure/ad/user
-- uid: az_ad_user_create
-  name: az ad user create
-  href: /cli/azure/ad/user#az_ad_user_create
-- uid: az_ad_user_delete
-  name: az ad user delete
-  href: /cli/azure/ad/user#az_ad_user_delete
-- uid: az_ad_user_list
-  name: az ad user list
-  href: /cli/azure/ad/user#az_ad_user_list
-- uid: az_ad_user_show
-  name: az ad user show
-  href: /cli/azure/ad/user#az_ad_user_show
-- uid: az_appservice
-  name: az appservice
-  href: /cli/azure/appservice
-- uid: az_appservice_list_locations
-  name: az appservice list-locations
-  href: /cli/azure/appservice#az_appservice_list_locations
-- uid: az_appservice_plan
-  name: az appservice plan
-  href: /cli/azure/appservice/plan
-- uid: az_appservice_plan_create
-  name: az appservice plan create
-  href: /cli/azure/appservice/plan#az_appservice_plan_create
-- uid: az_appservice_plan_delete
-  name: az appservice plan delete
-  href: /cli/azure/appservice/plan#az_appservice_plan_delete
-- uid: az_appservice_plan_list
-  name: az appservice plan list
-  href: /cli/azure/appservice/plan#az_appservice_plan_list
-- uid: az_appservice_plan_show
-  name: az appservice plan show
-  href: /cli/azure/appservice/plan#az_appservice_plan_show
-- uid: az_appservice_plan_update
-  name: az appservice plan update
-  href: /cli/azure/appservice/plan#az_appservice_plan_update
-- uid: az_batch
-  name: az batch
-  href: /cli/azure/batch
-- uid: az_batch_account
-  name: az batch account
-  href: /cli/azure/batch/account
-- uid: az_batch_account_autostorage_keys
-  name: az batch account autostorage-keys
-  href: /cli/azure/batch/account/autostorage-keys
-- uid: az_batch_account_autostorage_keys_sync
-  name: az batch account autostorage-keys sync
-  href: /cli/azure/batch/account/autostorage-keys#az_batch_account_autostorage_keys_sync
-- uid: az_batch_account_create
-  name: az batch account create
-  href: /cli/azure/batch/account#az_batch_account_create
-- uid: az_batch_account_delete
-  name: az batch account delete
-  href: /cli/azure/batch/account#az_batch_account_delete
-- uid: az_batch_account_keys
-  name: az batch account keys
-  href: /cli/azure/batch/account/keys
-- uid: az_batch_account_keys_list
-  name: az batch account keys list
-  href: /cli/azure/batch/account/keys#az_batch_account_keys_list
-- uid: az_batch_account_keys_renew
-  name: az batch account keys renew
-  href: /cli/azure/batch/account/keys#az_batch_account_keys_renew
-- uid: az_batch_account_list
-  name: az batch account list
-  href: /cli/azure/batch/account#az_batch_account_list
-- uid: az_batch_account_login
-  name: az batch account login
-  href: /cli/azure/batch/account#az_batch_account_login
-- uid: az_batch_account_set
-  name: az batch account set
-  href: /cli/azure/batch/account#az_batch_account_set
-- uid: az_batch_account_show
-  name: az batch account show
-  href: /cli/azure/batch/account#az_batch_account_show
-- uid: az_batch_application
-  name: az batch application
-  href: /cli/azure/batch/application
-- uid: az_batch_application_create
-  name: az batch application create
-  href: /cli/azure/batch/application#az_batch_application_create
-- uid: az_batch_application_delete
-  name: az batch application delete
-  href: /cli/azure/batch/application#az_batch_application_delete
-- uid: az_batch_application_list
-  name: az batch application list
-  href: /cli/azure/batch/application#az_batch_application_list
-- uid: az_batch_application_package
-  name: az batch application package
-  href: /cli/azure/batch/application/package
-- uid: az_batch_application_package_activate
-  name: az batch application package activate
-  href: /cli/azure/batch/application/package#az_batch_application_package_activate
-- uid: az_batch_application_package_create
-  name: az batch application package create
-  href: /cli/azure/batch/application/package#az_batch_application_package_create
-- uid: az_batch_application_package_delete
-  name: az batch application package delete
-  href: /cli/azure/batch/application/package#az_batch_application_package_delete
-- uid: az_batch_application_package_show
-  name: az batch application package show
-  href: /cli/azure/batch/application/package#az_batch_application_package_show
-- uid: az_batch_application_set
-  name: az batch application set
-  href: /cli/azure/batch/application#az_batch_application_set
-- uid: az_batch_application_show
-  name: az batch application show
-  href: /cli/azure/batch/application#az_batch_application_show
-- uid: az_batch_application_summary
-  name: az batch application summary
-  href: /cli/azure/batch/application/summary
-- uid: az_batch_application_summary_list
-  name: az batch application summary list
-  href: /cli/azure/batch/application/summary#az_batch_application_summary_list
-- uid: az_batch_application_summary_show
-  name: az batch application summary show
-  href: /cli/azure/batch/application/summary#az_batch_application_summary_show
-- uid: az_batch_certificate
-  name: az batch certificate
-  href: /cli/azure/batch/certificate
-- uid: az_batch_certificate_create
-  name: az batch certificate create
-  href: /cli/azure/batch/certificate#az_batch_certificate_create
-- uid: az_batch_certificate_delete
-  name: az batch certificate delete
-  href: /cli/azure/batch/certificate#az_batch_certificate_delete
-- uid: az_batch_certificate_list
-  name: az batch certificate list
-  href: /cli/azure/batch/certificate#az_batch_certificate_list
-- uid: az_batch_certificate_show
-  name: az batch certificate show
-  href: /cli/azure/batch/certificate#az_batch_certificate_show
-- uid: az_batch_job
-  name: az batch job
-  href: /cli/azure/batch/job
-- uid: az_batch_job_all_statistics
-  name: az batch job all-statistics
-  href: /cli/azure/batch/job/all-statistics
-- uid: az_batch_job_all_statistics_show
-  name: az batch job all-statistics show
-  href: /cli/azure/batch/job/all-statistics#az_batch_job_all_statistics_show
-- uid: az_batch_job_create
-  name: az batch job create
-  href: /cli/azure/batch/job#az_batch_job_create
-- uid: az_batch_job_delete
-  name: az batch job delete
-  href: /cli/azure/batch/job#az_batch_job_delete
-- uid: az_batch_job_disable
-  name: az batch job disable
-  href: /cli/azure/batch/job#az_batch_job_disable
-- uid: az_batch_job_enable
-  name: az batch job enable
-  href: /cli/azure/batch/job#az_batch_job_enable
-- uid: az_batch_job_list
-  name: az batch job list
-  href: /cli/azure/batch/job#az_batch_job_list
-- uid: az_batch_job_prep_release_status
-  name: az batch job prep-release-status
-  href: /cli/azure/batch/job/prep-release-status
-- uid: az_batch_job_prep_release_status_list
-  name: az batch job prep-release-status list
-  href: /cli/azure/batch/job/prep-release-status#az_batch_job_prep_release_status_list
-- uid: az_batch_job_reset
-  name: az batch job reset
-  href: /cli/azure/batch/job#az_batch_job_reset
-- uid: az_batch_job_schedule
-  name: az batch job-schedule
-  href: /cli/azure/batch/job-schedule
-- uid: az_batch_job_schedule_create
-  name: az batch job-schedule create
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_create
-- uid: az_batch_job_schedule_delete
-  name: az batch job-schedule delete
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_delete
-- uid: az_batch_job_schedule_disable
-  name: az batch job-schedule disable
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_disable
-- uid: az_batch_job_schedule_enable
-  name: az batch job-schedule enable
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_enable
-- uid: az_batch_job_schedule_list
-  name: az batch job-schedule list
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_list
-- uid: az_batch_job_schedule_reset
-  name: az batch job-schedule reset
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_reset
-- uid: az_batch_job_schedule_set
-  name: az batch job-schedule set
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_set
-- uid: az_batch_job_schedule_show
-  name: az batch job-schedule show
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_show
-- uid: az_batch_job_schedule_stop
-  name: az batch job-schedule stop
-  href: /cli/azure/batch/job-schedule#az_batch_job_schedule_stop
-- uid: az_batch_job_set
-  name: az batch job set
-  href: /cli/azure/batch/job#az_batch_job_set
-- uid: az_batch_job_show
-  name: az batch job show
-  href: /cli/azure/batch/job#az_batch_job_show
-- uid: az_batch_job_stop
-  name: az batch job stop
-  href: /cli/azure/batch/job#az_batch_job_stop
-- uid: az_batch_location
-  name: az batch location
-  href: /cli/azure/batch/location
-- uid: az_batch_location_quotas
-  name: az batch location quotas
-  href: /cli/azure/batch/location/quotas
-- uid: az_batch_location_quotas_show
-  name: az batch location quotas show
-  href: /cli/azure/batch/location/quotas#az_batch_location_quotas_show
-- uid: az_batch_node
-  name: az batch node
-  href: /cli/azure/batch/node
-- uid: az_batch_node_delete
-  name: az batch node delete
-  href: /cli/azure/batch/node#az_batch_node_delete
-- uid: az_batch_node_file
-  name: az batch node file
-  href: /cli/azure/batch/node/file
-- uid: az_batch_node_file_delete
-  name: az batch node file delete
-  href: /cli/azure/batch/node/file#az_batch_node_file_delete
-- uid: az_batch_node_file_download
-  name: az batch node file download
-  href: /cli/azure/batch/node/file#az_batch_node_file_download
-- uid: az_batch_node_file_list
-  name: az batch node file list
-  href: /cli/azure/batch/node/file#az_batch_node_file_list
-- uid: az_batch_node_file_show
-  name: az batch node file show
-  href: /cli/azure/batch/node/file#az_batch_node_file_show
-- uid: az_batch_node_list
-  name: az batch node list
-  href: /cli/azure/batch/node#az_batch_node_list
-- uid: az_batch_node_reboot
-  name: az batch node reboot
-  href: /cli/azure/batch/node#az_batch_node_reboot
-- uid: az_batch_node_reimage
-  name: az batch node reimage
-  href: /cli/azure/batch/node#az_batch_node_reimage
-- uid: az_batch_node_remote_desktop
-  name: az batch node remote-desktop
-  href: /cli/azure/batch/node/remote-desktop
-- uid: az_batch_node_remote_desktop_download
-  name: az batch node remote-desktop download
-  href: /cli/azure/batch/node/remote-desktop#az_batch_node_remote_desktop_download
-- uid: az_batch_node_remote_login_settings
-  name: az batch node remote-login-settings
-  href: /cli/azure/batch/node/remote-login-settings
-- uid: az_batch_node_remote_login_settings_show
-  name: az batch node remote-login-settings show
-  href: /cli/azure/batch/node/remote-login-settings#az_batch_node_remote_login_settings_show
-- uid: az_batch_node_scheduling
-  name: az batch node scheduling
-  href: /cli/azure/batch/node/scheduling
-- uid: az_batch_node_scheduling_disable
-  name: az batch node scheduling disable
-  href: /cli/azure/batch/node/scheduling#az_batch_node_scheduling_disable
-- uid: az_batch_node_scheduling_enable
-  name: az batch node scheduling enable
-  href: /cli/azure/batch/node/scheduling#az_batch_node_scheduling_enable
-- uid: az_batch_node_show
-  name: az batch node show
-  href: /cli/azure/batch/node#az_batch_node_show
-- uid: az_batch_node_user
-  name: az batch node user
-  href: /cli/azure/batch/node/user
-- uid: az_batch_node_user_create
-  name: az batch node user create
-  href: /cli/azure/batch/node/user#az_batch_node_user_create
-- uid: az_batch_node_user_delete
-  name: az batch node user delete
-  href: /cli/azure/batch/node/user#az_batch_node_user_delete
-- uid: az_batch_node_user_reset
-  name: az batch node user reset
-  href: /cli/azure/batch/node/user#az_batch_node_user_reset
-- uid: az_batch_pool
-  name: az batch pool
-  href: /cli/azure/batch/pool
-- uid: az_batch_pool_all_statistics
-  name: az batch pool all-statistics
-  href: /cli/azure/batch/pool/all-statistics
-- uid: az_batch_pool_all_statistics_show
-  name: az batch pool all-statistics show
-  href: /cli/azure/batch/pool/all-statistics#az_batch_pool_all_statistics_show
-- uid: az_batch_pool_autoscale
-  name: az batch pool autoscale
-  href: /cli/azure/batch/pool/autoscale
-- uid: az_batch_pool_autoscale_disable
-  name: az batch pool autoscale disable
-  href: /cli/azure/batch/pool/autoscale#az_batch_pool_autoscale_disable
-- uid: az_batch_pool_autoscale_enable
-  name: az batch pool autoscale enable
-  href: /cli/azure/batch/pool/autoscale#az_batch_pool_autoscale_enable
-- uid: az_batch_pool_autoscale_evaluate
-  name: az batch pool autoscale evaluate
-  href: /cli/azure/batch/pool/autoscale#az_batch_pool_autoscale_evaluate
-- uid: az_batch_pool_create
-  name: az batch pool create
-  href: /cli/azure/batch/pool#az_batch_pool_create
-- uid: az_batch_pool_delete
-  name: az batch pool delete
-  href: /cli/azure/batch/pool#az_batch_pool_delete
-- uid: az_batch_pool_list
-  name: az batch pool list
-  href: /cli/azure/batch/pool#az_batch_pool_list
-- uid: az_batch_pool_node_agent_skus
-  name: az batch pool node-agent-skus
-  href: /cli/azure/batch/pool/node-agent-skus
-- uid: az_batch_pool_node_agent_skus_list
-  name: az batch pool node-agent-skus list
-  href: /cli/azure/batch/pool/node-agent-skus#az_batch_pool_node_agent_skus_list
-- uid: az_batch_pool_os
-  name: az batch pool os
-  href: /cli/azure/batch/pool/os
-- uid: az_batch_pool_os_upgrade
-  name: az batch pool os upgrade
-  href: /cli/azure/batch/pool/os#az_batch_pool_os_upgrade
-- uid: az_batch_pool_reset
-  name: az batch pool reset
-  href: /cli/azure/batch/pool#az_batch_pool_reset
-- uid: az_batch_pool_resize
-  name: az batch pool resize
-  href: /cli/azure/batch/pool#az_batch_pool_resize
-- uid: az_batch_pool_set
-  name: az batch pool set
-  href: /cli/azure/batch/pool#az_batch_pool_set
-- uid: az_batch_pool_show
-  name: az batch pool show
-  href: /cli/azure/batch/pool#az_batch_pool_show
-- uid: az_batch_pool_usage_metrics
-  name: az batch pool usage-metrics
-  href: /cli/azure/batch/pool/usage-metrics
-- uid: az_batch_pool_usage_metrics_list
-  name: az batch pool usage-metrics list
-  href: /cli/azure/batch/pool/usage-metrics#az_batch_pool_usage_metrics_list
-- uid: az_batch_task
-  name: az batch task
-  href: /cli/azure/batch/task
-- uid: az_batch_task_create
-  name: az batch task create
-  href: /cli/azure/batch/task#az_batch_task_create
-- uid: az_batch_task_delete
-  name: az batch task delete
-  href: /cli/azure/batch/task#az_batch_task_delete
-- uid: az_batch_task_file
-  name: az batch task file
-  href: /cli/azure/batch/task/file
-- uid: az_batch_task_file_delete
-  name: az batch task file delete
-  href: /cli/azure/batch/task/file#az_batch_task_file_delete
-- uid: az_batch_task_file_download
-  name: az batch task file download
-  href: /cli/azure/batch/task/file#az_batch_task_file_download
-- uid: az_batch_task_file_list
-  name: az batch task file list
-  href: /cli/azure/batch/task/file#az_batch_task_file_list
-- uid: az_batch_task_file_show
-  name: az batch task file show
-  href: /cli/azure/batch/task/file#az_batch_task_file_show
-- uid: az_batch_task_list
-  name: az batch task list
-  href: /cli/azure/batch/task#az_batch_task_list
-- uid: az_batch_task_reactivate
-  name: az batch task reactivate
-  href: /cli/azure/batch/task#az_batch_task_reactivate
-- uid: az_batch_task_reset
-  name: az batch task reset
-  href: /cli/azure/batch/task#az_batch_task_reset
-- uid: az_batch_task_show
-  name: az batch task show
-  href: /cli/azure/batch/task#az_batch_task_show
-- uid: az_batch_task_stop
-  name: az batch task stop
-  href: /cli/azure/batch/task#az_batch_task_stop
-- uid: az_batch_task_subtask
-  name: az batch task subtask
-  href: /cli/azure/batch/task/subtask
-- uid: az_batch_task_subtask_list
-  name: az batch task subtask list
-  href: /cli/azure/batch/task/subtask#az_batch_task_subtask_list
-- uid: az_billing
-  name: az billing
-  href: /cli/azure/billing
-- uid: az_billing_invoice
-  name: az billing invoice
-  href: /cli/azure/billing/invoice
-- uid: az_billing_invoice_list
-  name: az billing invoice list
-  href: /cli/azure/billing/invoice#az_billing_invoice_list
-- uid: az_billing_invoice_show
-  name: az billing invoice show
-  href: /cli/azure/billing/invoice#az_billing_invoice_show
-- uid: az_billing_period
-  name: az billing period
-  href: /cli/azure/billing/period
-- uid: az_billing_period_list
-  name: az billing period list
-  href: /cli/azure/billing/period#az_billing_period_list
-- uid: az_billing_period_show
-  name: az billing period show
-  href: /cli/azure/billing/period#az_billing_period_show
-- uid: az_cdn
-  name: az cdn
-  href: /cli/azure/cdn
-- uid: az_cdn_custom_domain
-  name: az cdn custom-domain
-  href: /cli/azure/cdn/custom-domain
-- uid: az_cdn_custom_domain_create
-  name: az cdn custom-domain create
-  href: /cli/azure/cdn/custom-domain#az_cdn_custom_domain_create
-- uid: az_cdn_custom_domain_delete
-  name: az cdn custom-domain delete
-  href: /cli/azure/cdn/custom-domain#az_cdn_custom_domain_delete
-- uid: az_cdn_custom_domain_list
-  name: az cdn custom-domain list
-  href: /cli/azure/cdn/custom-domain#az_cdn_custom_domain_list
-- uid: az_cdn_custom_domain_show
-  name: az cdn custom-domain show
-  href: /cli/azure/cdn/custom-domain#az_cdn_custom_domain_show
-- uid: az_cdn_edge_node
-  name: az cdn edge-node
-  href: /cli/azure/cdn/edge-node
-- uid: az_cdn_edge_node_list
-  name: az cdn edge-node list
-  href: /cli/azure/cdn/edge-node#az_cdn_edge_node_list
-- uid: az_cdn_endpoint
-  name: az cdn endpoint
-  href: /cli/azure/cdn/endpoint
-- uid: az_cdn_endpoint_create
-  name: az cdn endpoint create
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_create
-- uid: az_cdn_endpoint_delete
-  name: az cdn endpoint delete
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_delete
-- uid: az_cdn_endpoint_list
-  name: az cdn endpoint list
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_list
-- uid: az_cdn_endpoint_load
-  name: az cdn endpoint load
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_load
-- uid: az_cdn_endpoint_purge
-  name: az cdn endpoint purge
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_purge
-- uid: az_cdn_endpoint_show
-  name: az cdn endpoint show
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_show
-- uid: az_cdn_endpoint_start
-  name: az cdn endpoint start
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_start
-- uid: az_cdn_endpoint_stop
-  name: az cdn endpoint stop
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_stop
-- uid: az_cdn_endpoint_update
-  name: az cdn endpoint update
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_update
-- uid: az_cdn_endpoint_validate_custom_domain
-  name: az cdn endpoint validate-custom-domain
-  href: /cli/azure/cdn/endpoint#az_cdn_endpoint_validate_custom_domain
-- uid: az_cdn_name_exists
-  name: az cdn name-exists
-  href: /cli/azure/cdn#az_cdn_name_exists
-- uid: az_cdn_origin
-  name: az cdn origin
-  href: /cli/azure/cdn/origin
-- uid: az_cdn_origin_list
-  name: az cdn origin list
-  href: /cli/azure/cdn/origin#az_cdn_origin_list
-- uid: az_cdn_origin_show
-  name: az cdn origin show
-  href: /cli/azure/cdn/origin#az_cdn_origin_show
-- uid: az_cdn_profile
-  name: az cdn profile
-  href: /cli/azure/cdn/profile
-- uid: az_cdn_profile_create
-  name: az cdn profile create
-  href: /cli/azure/cdn/profile#az_cdn_profile_create
-- uid: az_cdn_profile_delete
-  name: az cdn profile delete
-  href: /cli/azure/cdn/profile#az_cdn_profile_delete
-- uid: az_cdn_profile_list
-  name: az cdn profile list
-  href: /cli/azure/cdn/profile#az_cdn_profile_list
-- uid: az_cdn_profile_show
-  name: az cdn profile show
-  href: /cli/azure/cdn/profile#az_cdn_profile_show
-- uid: az_cdn_profile_update
-  name: az cdn profile update
-  href: /cli/azure/cdn/profile#az_cdn_profile_update
-- uid: az_cdn_profile_usage
-  name: az cdn profile usage
-  href: /cli/azure/cdn/profile#az_cdn_profile_usage
-- uid: az_cdn_usage
-  name: az cdn usage
-  href: /cli/azure/cdn#az_cdn_usage
+- uid: az_backup
+  name: az backup
+  href: /cli/azure/backup
+- uid: az_backup_container
+  name: az backup container
+  href: /cli/azure/backup/container
+- uid: az_backup_container_list
+  name: az backup container list
+  href: /cli/azure/backup/container#az_backup_container_list
+- uid: az_backup_container_show
+  name: az backup container show
+  href: /cli/azure/backup/container#az_backup_container_show
+- uid: az_backup_item
+  name: az backup item
+  href: /cli/azure/backup/item
+- uid: az_backup_item_list
+  name: az backup item list
+  href: /cli/azure/backup/item#az_backup_item_list
+- uid: az_backup_item_set_policy
+  name: az backup item set-policy
+  href: /cli/azure/backup/item#az_backup_item_set_policy
+- uid: az_backup_item_show
+  name: az backup item show
+  href: /cli/azure/backup/item#az_backup_item_show
+- uid: az_backup_job
+  name: az backup job
+  href: /cli/azure/backup/job
+- uid: az_backup_job_list
+  name: az backup job list
+  href: /cli/azure/backup/job#az_backup_job_list
+- uid: az_backup_job_show
+  name: az backup job show
+  href: /cli/azure/backup/job#az_backup_job_show
+- uid: az_backup_job_stop
+  name: az backup job stop
+  href: /cli/azure/backup/job#az_backup_job_stop
+- uid: az_backup_job_wait
+  name: az backup job wait
+  href: /cli/azure/backup/job#az_backup_job_wait
+- uid: az_backup_policy
+  name: az backup policy
+  href: /cli/azure/backup/policy
+- uid: az_backup_policy_delete
+  name: az backup policy delete
+  href: /cli/azure/backup/policy#az_backup_policy_delete
+- uid: az_backup_policy_get_default_for_vm
+  name: az backup policy get-default-for-vm
+  href: /cli/azure/backup/policy#az_backup_policy_get_default_for_vm
+- uid: az_backup_policy_list
+  name: az backup policy list
+  href: /cli/azure/backup/policy#az_backup_policy_list
+- uid: az_backup_policy_list_associated_items
+  name: az backup policy list-associated-items
+  href: /cli/azure/backup/policy#az_backup_policy_list_associated_items
+- uid: az_backup_policy_set
+  name: az backup policy set
+  href: /cli/azure/backup/policy#az_backup_policy_set
+- uid: az_backup_policy_show
+  name: az backup policy show
+  href: /cli/azure/backup/policy#az_backup_policy_show
+- uid: az_backup_protection
+  name: az backup protection
+  href: /cli/azure/backup/protection
+- uid: az_backup_protection_backup_now
+  name: az backup protection backup-now
+  href: /cli/azure/backup/protection#az_backup_protection_backup_now
+- uid: az_backup_protection_disable
+  name: az backup protection disable
+  href: /cli/azure/backup/protection#az_backup_protection_disable
+- uid: az_backup_protection_enable_for_vm
+  name: az backup protection enable-for-vm
+  href: /cli/azure/backup/protection#az_backup_protection_enable_for_vm
+- uid: az_backup_recoverypoint
+  name: az backup recoverypoint
+  href: /cli/azure/backup/recoverypoint
+- uid: az_backup_recoverypoint_list
+  name: az backup recoverypoint list
+  href: /cli/azure/backup/recoverypoint#az_backup_recoverypoint_list
+- uid: az_backup_recoverypoint_show
+  name: az backup recoverypoint show
+  href: /cli/azure/backup/recoverypoint#az_backup_recoverypoint_show
+- uid: az_backup_restore
+  name: az backup restore
+  href: /cli/azure/backup/restore
+- uid: az_backup_restore_files
+  name: az backup restore files
+  href: /cli/azure/backup/restore/files
+- uid: az_backup_restore_files_mount_rp
+  name: az backup restore files mount-rp
+  href: /cli/azure/backup/restore/files#az_backup_restore_files_mount_rp
+- uid: az_backup_restore_files_unmount_rp
+  name: az backup restore files unmount-rp
+  href: /cli/azure/backup/restore/files#az_backup_restore_files_unmount_rp
+- uid: az_backup_restore_restore_disks
+  name: az backup restore restore-disks
+  href: /cli/azure/backup/restore#az_backup_restore_restore_disks
+- uid: az_backup_vault
+  name: az backup vault
+  href: /cli/azure/backup/vault
+- uid: az_backup_vault_backup_properties
+  name: az backup vault backup-properties
+  href: /cli/azure/backup/vault/backup-properties
+- uid: az_backup_vault_backup_properties_set
+  name: az backup vault backup-properties set
+  href: /cli/azure/backup/vault/backup-properties#az_backup_vault_backup_properties_set
+- uid: az_backup_vault_backup_properties_show
+  name: az backup vault backup-properties show
+  href: /cli/azure/backup/vault/backup-properties#az_backup_vault_backup_properties_show
+- uid: az_backup_vault_create
+  name: az backup vault create
+  href: /cli/azure/backup/vault#az_backup_vault_create
+- uid: az_backup_vault_delete
+  name: az backup vault delete
+  href: /cli/azure/backup/vault#az_backup_vault_delete
+- uid: az_backup_vault_list
+  name: az backup vault list
+  href: /cli/azure/backup/vault#az_backup_vault_list
+- uid: az_backup_vault_show
+  name: az backup vault show
+  href: /cli/azure/backup/vault#az_backup_vault_show
 - uid: az_cloud
   name: az cloud
   href: /cli/azure/cloud
@@ -751,39 +169,6 @@ references:
 - uid: az_cloud_update
   name: az cloud update
   href: /cli/azure/cloud#az_cloud_update
-- uid: az_cognitiveservices
-  name: az cognitiveservices
-  href: /cli/azure/cognitiveservices
-- uid: az_cognitiveservices_account
-  name: az cognitiveservices account
-  href: /cli/azure/cognitiveservices/account
-- uid: az_cognitiveservices_account_create
-  name: az cognitiveservices account create
-  href: /cli/azure/cognitiveservices/account#az_cognitiveservices_account_create
-- uid: az_cognitiveservices_account_delete
-  name: az cognitiveservices account delete
-  href: /cli/azure/cognitiveservices/account#az_cognitiveservices_account_delete
-- uid: az_cognitiveservices_account_keys
-  name: az cognitiveservices account keys
-  href: /cli/azure/cognitiveservices/account/keys
-- uid: az_cognitiveservices_account_keys_list
-  name: az cognitiveservices account keys list
-  href: /cli/azure/cognitiveservices/account/keys#az_cognitiveservices_account_keys_list
-- uid: az_cognitiveservices_account_keys_regenerate
-  name: az cognitiveservices account keys regenerate
-  href: /cli/azure/cognitiveservices/account/keys#az_cognitiveservices_account_keys_regenerate
-- uid: az_cognitiveservices_account_list_skus
-  name: az cognitiveservices account list-skus
-  href: /cli/azure/cognitiveservices/account#az_cognitiveservices_account_list_skus
-- uid: az_cognitiveservices_account_show
-  name: az cognitiveservices account show
-  href: /cli/azure/cognitiveservices/account#az_cognitiveservices_account_show
-- uid: az_cognitiveservices_account_update
-  name: az cognitiveservices account update
-  href: /cli/azure/cognitiveservices/account#az_cognitiveservices_account_update
-- uid: az_cognitiveservices_list
-  name: az cognitiveservices list
-  href: /cli/azure/cognitiveservices#az_cognitiveservices_list
 - uid: az_component
   name: az component
   href: /cli/azure/component
@@ -802,600 +187,27 @@ references:
 - uid: az_configure
   name: az configure
   href: /cli/azure/index#az_configure
-- uid: az_consumption
-  name: az consumption
-  href: /cli/azure/consumption
-- uid: az_consumption_usage
-  name: az consumption usage
-  href: /cli/azure/consumption/usage
-- uid: az_consumption_usage_list
-  name: az consumption usage list
-  href: /cli/azure/consumption/usage#az_consumption_usage_list
-- uid: az_cosmosdb
-  name: az cosmosdb
-  href: /cli/azure/cosmosdb
-- uid: az_cosmosdb_check_name_exists
-  name: az cosmosdb check-name-exists
-  href: /cli/azure/cosmosdb#az_cosmosdb_check_name_exists
-- uid: az_cosmosdb_collection
-  name: az cosmosdb collection
-  href: /cli/azure/cosmosdb/collection
-- uid: az_cosmosdb_collection_create
-  name: az cosmosdb collection create
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_create
-- uid: az_cosmosdb_collection_delete
-  name: az cosmosdb collection delete
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_delete
-- uid: az_cosmosdb_collection_exists
-  name: az cosmosdb collection exists
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_exists
-- uid: az_cosmosdb_collection_list
-  name: az cosmosdb collection list
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_list
-- uid: az_cosmosdb_collection_show
-  name: az cosmosdb collection show
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_show
-- uid: az_cosmosdb_collection_update
-  name: az cosmosdb collection update
-  href: /cli/azure/cosmosdb/collection#az_cosmosdb_collection_update
-- uid: az_cosmosdb_create
-  name: az cosmosdb create
-  href: /cli/azure/cosmosdb#az_cosmosdb_create
-- uid: az_cosmosdb_database
-  name: az cosmosdb database
-  href: /cli/azure/cosmosdb/database
-- uid: az_cosmosdb_database_create
-  name: az cosmosdb database create
-  href: /cli/azure/cosmosdb/database#az_cosmosdb_database_create
-- uid: az_cosmosdb_database_delete
-  name: az cosmosdb database delete
-  href: /cli/azure/cosmosdb/database#az_cosmosdb_database_delete
-- uid: az_cosmosdb_database_exists
-  name: az cosmosdb database exists
-  href: /cli/azure/cosmosdb/database#az_cosmosdb_database_exists
-- uid: az_cosmosdb_database_list
-  name: az cosmosdb database list
-  href: /cli/azure/cosmosdb/database#az_cosmosdb_database_list
-- uid: az_cosmosdb_database_show
-  name: az cosmosdb database show
-  href: /cli/azure/cosmosdb/database#az_cosmosdb_database_show
-- uid: az_cosmosdb_delete
-  name: az cosmosdb delete
-  href: /cli/azure/cosmosdb#az_cosmosdb_delete
-- uid: az_cosmosdb_failover_priority_change
-  name: az cosmosdb failover-priority-change
-  href: /cli/azure/cosmosdb#az_cosmosdb_failover_priority_change
-- uid: az_cosmosdb_list
-  name: az cosmosdb list
-  href: /cli/azure/cosmosdb#az_cosmosdb_list
-- uid: az_cosmosdb_list_connection_strings
-  name: az cosmosdb list-connection-strings
-  href: /cli/azure/cosmosdb#az_cosmosdb_list_connection_strings
-- uid: az_cosmosdb_list_keys
-  name: az cosmosdb list-keys
-  href: /cli/azure/cosmosdb#az_cosmosdb_list_keys
-- uid: az_cosmosdb_list_read_only_keys
-  name: az cosmosdb list-read-only-keys
-  href: /cli/azure/cosmosdb#az_cosmosdb_list_read_only_keys
-- uid: az_cosmosdb_regenerate_key
-  name: az cosmosdb regenerate-key
-  href: /cli/azure/cosmosdb#az_cosmosdb_regenerate_key
-- uid: az_cosmosdb_show
-  name: az cosmosdb show
-  href: /cli/azure/cosmosdb#az_cosmosdb_show
-- uid: az_cosmosdb_update
-  name: az cosmosdb update
-  href: /cli/azure/cosmosdb#az_cosmosdb_update
-- uid: az_dla
-  name: az dla
-  href: /cli/azure/dla
-- uid: az_dla_account
-  name: az dla account
-  href: /cli/azure/dla/account
-- uid: az_dla_account_blob_storage
-  name: az dla account blob-storage
-  href: /cli/azure/dla/account/blob-storage
-- uid: az_dla_account_blob_storage_add
-  name: az dla account blob-storage add
-  href: /cli/azure/dla/account/blob-storage#az_dla_account_blob_storage_add
-- uid: az_dla_account_blob_storage_delete
-  name: az dla account blob-storage delete
-  href: /cli/azure/dla/account/blob-storage#az_dla_account_blob_storage_delete
-- uid: az_dla_account_blob_storage_list
-  name: az dla account blob-storage list
-  href: /cli/azure/dla/account/blob-storage#az_dla_account_blob_storage_list
-- uid: az_dla_account_blob_storage_show
-  name: az dla account blob-storage show
-  href: /cli/azure/dla/account/blob-storage#az_dla_account_blob_storage_show
-- uid: az_dla_account_blob_storage_update
-  name: az dla account blob-storage update
-  href: /cli/azure/dla/account/blob-storage#az_dla_account_blob_storage_update
-- uid: az_dla_account_compute_policy
-  name: az dla account compute-policy
-  href: /cli/azure/dla/account/compute-policy
-- uid: az_dla_account_compute_policy_create
-  name: az dla account compute-policy create
-  href: /cli/azure/dla/account/compute-policy#az_dla_account_compute_policy_create
-- uid: az_dla_account_compute_policy_delete
-  name: az dla account compute-policy delete
-  href: /cli/azure/dla/account/compute-policy#az_dla_account_compute_policy_delete
-- uid: az_dla_account_compute_policy_list
-  name: az dla account compute-policy list
-  href: /cli/azure/dla/account/compute-policy#az_dla_account_compute_policy_list
-- uid: az_dla_account_compute_policy_show
-  name: az dla account compute-policy show
-  href: /cli/azure/dla/account/compute-policy#az_dla_account_compute_policy_show
-- uid: az_dla_account_compute_policy_update
-  name: az dla account compute-policy update
-  href: /cli/azure/dla/account/compute-policy#az_dla_account_compute_policy_update
-- uid: az_dla_account_create
-  name: az dla account create
-  href: /cli/azure/dla/account#az_dla_account_create
-- uid: az_dla_account_data_lake_store
-  name: az dla account data-lake-store
-  href: /cli/azure/dla/account/data-lake-store
-- uid: az_dla_account_data_lake_store_add
-  name: az dla account data-lake-store add
-  href: /cli/azure/dla/account/data-lake-store#az_dla_account_data_lake_store_add
-- uid: az_dla_account_data_lake_store_delete
-  name: az dla account data-lake-store delete
-  href: /cli/azure/dla/account/data-lake-store#az_dla_account_data_lake_store_delete
-- uid: az_dla_account_data_lake_store_list
-  name: az dla account data-lake-store list
-  href: /cli/azure/dla/account/data-lake-store#az_dla_account_data_lake_store_list
-- uid: az_dla_account_data_lake_store_show
-  name: az dla account data-lake-store show
-  href: /cli/azure/dla/account/data-lake-store#az_dla_account_data_lake_store_show
-- uid: az_dla_account_delete
-  name: az dla account delete
-  href: /cli/azure/dla/account#az_dla_account_delete
-- uid: az_dla_account_firewall
-  name: az dla account firewall
-  href: /cli/azure/dla/account/firewall
-- uid: az_dla_account_firewall_create
-  name: az dla account firewall create
-  href: /cli/azure/dla/account/firewall#az_dla_account_firewall_create
-- uid: az_dla_account_firewall_delete
-  name: az dla account firewall delete
-  href: /cli/azure/dla/account/firewall#az_dla_account_firewall_delete
-- uid: az_dla_account_firewall_list
-  name: az dla account firewall list
-  href: /cli/azure/dla/account/firewall#az_dla_account_firewall_list
-- uid: az_dla_account_firewall_show
-  name: az dla account firewall show
-  href: /cli/azure/dla/account/firewall#az_dla_account_firewall_show
-- uid: az_dla_account_firewall_update
-  name: az dla account firewall update
-  href: /cli/azure/dla/account/firewall#az_dla_account_firewall_update
-- uid: az_dla_account_list
-  name: az dla account list
-  href: /cli/azure/dla/account#az_dla_account_list
-- uid: az_dla_account_show
-  name: az dla account show
-  href: /cli/azure/dla/account#az_dla_account_show
-- uid: az_dla_account_update
-  name: az dla account update
-  href: /cli/azure/dla/account#az_dla_account_update
-- uid: az_dla_catalog
-  name: az dla catalog
-  href: /cli/azure/dla/catalog
-- uid: az_dla_catalog_assembly
-  name: az dla catalog assembly
-  href: /cli/azure/dla/catalog/assembly
-- uid: az_dla_catalog_assembly_list
-  name: az dla catalog assembly list
-  href: /cli/azure/dla/catalog/assembly#az_dla_catalog_assembly_list
-- uid: az_dla_catalog_assembly_show
-  name: az dla catalog assembly show
-  href: /cli/azure/dla/catalog/assembly#az_dla_catalog_assembly_show
-- uid: az_dla_catalog_credential
-  name: az dla catalog credential
-  href: /cli/azure/dla/catalog/credential
-- uid: az_dla_catalog_credential_create
-  name: az dla catalog credential create
-  href: /cli/azure/dla/catalog/credential#az_dla_catalog_credential_create
-- uid: az_dla_catalog_credential_delete
-  name: az dla catalog credential delete
-  href: /cli/azure/dla/catalog/credential#az_dla_catalog_credential_delete
-- uid: az_dla_catalog_credential_list
-  name: az dla catalog credential list
-  href: /cli/azure/dla/catalog/credential#az_dla_catalog_credential_list
-- uid: az_dla_catalog_credential_show
-  name: az dla catalog credential show
-  href: /cli/azure/dla/catalog/credential#az_dla_catalog_credential_show
-- uid: az_dla_catalog_credential_update
-  name: az dla catalog credential update
-  href: /cli/azure/dla/catalog/credential#az_dla_catalog_credential_update
-- uid: az_dla_catalog_database
-  name: az dla catalog database
-  href: /cli/azure/dla/catalog/database
-- uid: az_dla_catalog_database_list
-  name: az dla catalog database list
-  href: /cli/azure/dla/catalog/database#az_dla_catalog_database_list
-- uid: az_dla_catalog_database_show
-  name: az dla catalog database show
-  href: /cli/azure/dla/catalog/database#az_dla_catalog_database_show
-- uid: az_dla_catalog_external_data_source
-  name: az dla catalog external-data-source
-  href: /cli/azure/dla/catalog/external-data-source
-- uid: az_dla_catalog_external_data_source_list
-  name: az dla catalog external-data-source list
-  href: /cli/azure/dla/catalog/external-data-source#az_dla_catalog_external_data_source_list
-- uid: az_dla_catalog_external_data_source_show
-  name: az dla catalog external-data-source show
-  href: /cli/azure/dla/catalog/external-data-source#az_dla_catalog_external_data_source_show
-- uid: az_dla_catalog_package
-  name: az dla catalog package
-  href: /cli/azure/dla/catalog/package
-- uid: az_dla_catalog_package_list
-  name: az dla catalog package list
-  href: /cli/azure/dla/catalog/package#az_dla_catalog_package_list
-- uid: az_dla_catalog_package_show
-  name: az dla catalog package show
-  href: /cli/azure/dla/catalog/package#az_dla_catalog_package_show
-- uid: az_dla_catalog_procedure
-  name: az dla catalog procedure
-  href: /cli/azure/dla/catalog/procedure
-- uid: az_dla_catalog_procedure_list
-  name: az dla catalog procedure list
-  href: /cli/azure/dla/catalog/procedure#az_dla_catalog_procedure_list
-- uid: az_dla_catalog_procedure_show
-  name: az dla catalog procedure show
-  href: /cli/azure/dla/catalog/procedure#az_dla_catalog_procedure_show
-- uid: az_dla_catalog_schema
-  name: az dla catalog schema
-  href: /cli/azure/dla/catalog/schema
-- uid: az_dla_catalog_schema_list
-  name: az dla catalog schema list
-  href: /cli/azure/dla/catalog/schema#az_dla_catalog_schema_list
-- uid: az_dla_catalog_schema_show
-  name: az dla catalog schema show
-  href: /cli/azure/dla/catalog/schema#az_dla_catalog_schema_show
-- uid: az_dla_catalog_table
-  name: az dla catalog table
-  href: /cli/azure/dla/catalog/table
-- uid: az_dla_catalog_table_list
-  name: az dla catalog table list
-  href: /cli/azure/dla/catalog/table#az_dla_catalog_table_list
-- uid: az_dla_catalog_table_partition
-  name: az dla catalog table-partition
-  href: /cli/azure/dla/catalog/table-partition
-- uid: az_dla_catalog_table_partition_list
-  name: az dla catalog table-partition list
-  href: /cli/azure/dla/catalog/table-partition#az_dla_catalog_table_partition_list
-- uid: az_dla_catalog_table_partition_show
-  name: az dla catalog table-partition show
-  href: /cli/azure/dla/catalog/table-partition#az_dla_catalog_table_partition_show
-- uid: az_dla_catalog_table_show
-  name: az dla catalog table show
-  href: /cli/azure/dla/catalog/table#az_dla_catalog_table_show
-- uid: az_dla_catalog_table_stats
-  name: az dla catalog table-stats
-  href: /cli/azure/dla/catalog/table-stats
-- uid: az_dla_catalog_table_stats_list
-  name: az dla catalog table-stats list
-  href: /cli/azure/dla/catalog/table-stats#az_dla_catalog_table_stats_list
-- uid: az_dla_catalog_table_stats_show
-  name: az dla catalog table-stats show
-  href: /cli/azure/dla/catalog/table-stats#az_dla_catalog_table_stats_show
-- uid: az_dla_catalog_table_type
-  name: az dla catalog table-type
-  href: /cli/azure/dla/catalog/table-type
-- uid: az_dla_catalog_table_type_list
-  name: az dla catalog table-type list
-  href: /cli/azure/dla/catalog/table-type#az_dla_catalog_table_type_list
-- uid: az_dla_catalog_table_type_show
-  name: az dla catalog table-type show
-  href: /cli/azure/dla/catalog/table-type#az_dla_catalog_table_type_show
-- uid: az_dla_catalog_tvf
-  name: az dla catalog tvf
-  href: /cli/azure/dla/catalog/tvf
-- uid: az_dla_catalog_tvf_list
-  name: az dla catalog tvf list
-  href: /cli/azure/dla/catalog/tvf#az_dla_catalog_tvf_list
-- uid: az_dla_catalog_tvf_show
-  name: az dla catalog tvf show
-  href: /cli/azure/dla/catalog/tvf#az_dla_catalog_tvf_show
-- uid: az_dla_catalog_view
-  name: az dla catalog view
-  href: /cli/azure/dla/catalog/view
-- uid: az_dla_catalog_view_list
-  name: az dla catalog view list
-  href: /cli/azure/dla/catalog/view#az_dla_catalog_view_list
-- uid: az_dla_catalog_view_show
-  name: az dla catalog view show
-  href: /cli/azure/dla/catalog/view#az_dla_catalog_view_show
-- uid: az_dla_job
-  name: az dla job
-  href: /cli/azure/dla/job
-- uid: az_dla_job_cancel
-  name: az dla job cancel
-  href: /cli/azure/dla/job#az_dla_job_cancel
-- uid: az_dla_job_list
-  name: az dla job list
-  href: /cli/azure/dla/job#az_dla_job_list
-- uid: az_dla_job_pipeline
-  name: az dla job pipeline
-  href: /cli/azure/dla/job/pipeline
-- uid: az_dla_job_pipeline_list
-  name: az dla job pipeline list
-  href: /cli/azure/dla/job/pipeline#az_dla_job_pipeline_list
-- uid: az_dla_job_pipeline_show
-  name: az dla job pipeline show
-  href: /cli/azure/dla/job/pipeline#az_dla_job_pipeline_show
-- uid: az_dla_job_recurrence
-  name: az dla job recurrence
-  href: /cli/azure/dla/job/recurrence
-- uid: az_dla_job_recurrence_list
-  name: az dla job recurrence list
-  href: /cli/azure/dla/job/recurrence#az_dla_job_recurrence_list
-- uid: az_dla_job_recurrence_show
-  name: az dla job recurrence show
-  href: /cli/azure/dla/job/recurrence#az_dla_job_recurrence_show
-- uid: az_dla_job_show
-  name: az dla job show
-  href: /cli/azure/dla/job#az_dla_job_show
-- uid: az_dla_job_submit
-  name: az dla job submit
-  href: /cli/azure/dla/job#az_dla_job_submit
-- uid: az_dla_job_wait
-  name: az dla job wait
-  href: /cli/azure/dla/job#az_dla_job_wait
-- uid: az_dls
-  name: az dls
-  href: /cli/azure/dls
-- uid: az_dls_account
-  name: az dls account
-  href: /cli/azure/dls/account
-- uid: az_dls_account_create
-  name: az dls account create
-  href: /cli/azure/dls/account#az_dls_account_create
-- uid: az_dls_account_delete
-  name: az dls account delete
-  href: /cli/azure/dls/account#az_dls_account_delete
-- uid: az_dls_account_enable_key_vault
-  name: az dls account enable-key-vault
-  href: /cli/azure/dls/account#az_dls_account_enable_key_vault
-- uid: az_dls_account_firewall
-  name: az dls account firewall
-  href: /cli/azure/dls/account/firewall
-- uid: az_dls_account_firewall_create
-  name: az dls account firewall create
-  href: /cli/azure/dls/account/firewall#az_dls_account_firewall_create
-- uid: az_dls_account_firewall_delete
-  name: az dls account firewall delete
-  href: /cli/azure/dls/account/firewall#az_dls_account_firewall_delete
-- uid: az_dls_account_firewall_list
-  name: az dls account firewall list
-  href: /cli/azure/dls/account/firewall#az_dls_account_firewall_list
-- uid: az_dls_account_firewall_show
-  name: az dls account firewall show
-  href: /cli/azure/dls/account/firewall#az_dls_account_firewall_show
-- uid: az_dls_account_firewall_update
-  name: az dls account firewall update
-  href: /cli/azure/dls/account/firewall#az_dls_account_firewall_update
-- uid: az_dls_account_list
-  name: az dls account list
-  href: /cli/azure/dls/account#az_dls_account_list
-- uid: az_dls_account_show
-  name: az dls account show
-  href: /cli/azure/dls/account#az_dls_account_show
-- uid: az_dls_account_trusted_provider
-  name: az dls account trusted-provider
-  href: /cli/azure/dls/account/trusted-provider
-- uid: az_dls_account_trusted_provider_create
-  name: az dls account trusted-provider create
-  href: /cli/azure/dls/account/trusted-provider#az_dls_account_trusted_provider_create
-- uid: az_dls_account_trusted_provider_delete
-  name: az dls account trusted-provider delete
-  href: /cli/azure/dls/account/trusted-provider#az_dls_account_trusted_provider_delete
-- uid: az_dls_account_trusted_provider_list
-  name: az dls account trusted-provider list
-  href: /cli/azure/dls/account/trusted-provider#az_dls_account_trusted_provider_list
-- uid: az_dls_account_trusted_provider_show
-  name: az dls account trusted-provider show
-  href: /cli/azure/dls/account/trusted-provider#az_dls_account_trusted_provider_show
-- uid: az_dls_account_trusted_provider_update
-  name: az dls account trusted-provider update
-  href: /cli/azure/dls/account/trusted-provider#az_dls_account_trusted_provider_update
-- uid: az_dls_account_update
-  name: az dls account update
-  href: /cli/azure/dls/account#az_dls_account_update
-- uid: az_dls_fs
-  name: az dls fs
-  href: /cli/azure/dls/fs
-- uid: az_dls_fs_access
-  name: az dls fs access
-  href: /cli/azure/dls/fs/access
-- uid: az_dls_fs_access_remove_all
-  name: az dls fs access remove-all
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_remove_all
-- uid: az_dls_fs_access_remove_entry
-  name: az dls fs access remove-entry
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_remove_entry
-- uid: az_dls_fs_access_set
-  name: az dls fs access set
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_set
-- uid: az_dls_fs_access_set_entry
-  name: az dls fs access set-entry
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_set_entry
-- uid: az_dls_fs_access_set_owner
-  name: az dls fs access set-owner
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_set_owner
-- uid: az_dls_fs_access_set_permission
-  name: az dls fs access set-permission
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_set_permission
-- uid: az_dls_fs_access_show
-  name: az dls fs access show
-  href: /cli/azure/dls/fs/access#az_dls_fs_access_show
-- uid: az_dls_fs_append
-  name: az dls fs append
-  href: /cli/azure/dls/fs#az_dls_fs_append
-- uid: az_dls_fs_create
-  name: az dls fs create
-  href: /cli/azure/dls/fs#az_dls_fs_create
-- uid: az_dls_fs_delete
-  name: az dls fs delete
-  href: /cli/azure/dls/fs#az_dls_fs_delete
-- uid: az_dls_fs_download
-  name: az dls fs download
-  href: /cli/azure/dls/fs#az_dls_fs_download
-- uid: az_dls_fs_join
-  name: az dls fs join
-  href: /cli/azure/dls/fs#az_dls_fs_join
-- uid: az_dls_fs_list
-  name: az dls fs list
-  href: /cli/azure/dls/fs#az_dls_fs_list
-- uid: az_dls_fs_move
-  name: az dls fs move
-  href: /cli/azure/dls/fs#az_dls_fs_move
-- uid: az_dls_fs_preview
-  name: az dls fs preview
-  href: /cli/azure/dls/fs#az_dls_fs_preview
-- uid: az_dls_fs_remove_expiry
-  name: az dls fs remove-expiry
-  href: /cli/azure/dls/fs#az_dls_fs_remove_expiry
-- uid: az_dls_fs_set_expiry
-  name: az dls fs set-expiry
-  href: /cli/azure/dls/fs#az_dls_fs_set_expiry
-- uid: az_dls_fs_show
-  name: az dls fs show
-  href: /cli/azure/dls/fs#az_dls_fs_show
-- uid: az_dls_fs_test
-  name: az dls fs test
-  href: /cli/azure/dls/fs#az_dls_fs_test
-- uid: az_dls_fs_upload
-  name: az dls fs upload
-  href: /cli/azure/dls/fs#az_dls_fs_upload
-- uid: az_feature
-  name: az feature
-  href: /cli/azure/feature
-- uid: az_feature_list
-  name: az feature list
-  href: /cli/azure/feature#az_feature_list
-- uid: az_feature_register
-  name: az feature register
-  href: /cli/azure/feature#az_feature_register
-- uid: az_feature_show
-  name: az feature show
-  href: /cli/azure/feature#az_feature_show
+- uid: az_extension
+  name: az extension
+  href: /cli/azure/extension
+- uid: az_extension_add
+  name: az extension add
+  href: /cli/azure/extension#az_extension_add
+- uid: az_extension_list
+  name: az extension list
+  href: /cli/azure/extension#az_extension_list
+- uid: az_extension_remove
+  name: az extension remove
+  href: /cli/azure/extension#az_extension_remove
+- uid: az_extension_show
+  name: az extension show
+  href: /cli/azure/extension#az_extension_show
 - uid: az_feedback
   name: az feedback
   href: /cli/azure/index#az_feedback
 - uid: az_find
   name: az find
   href: /cli/azure/index#az_find
-- uid: az_functionapp
-  name: az functionapp
-  href: /cli/azure/functionapp
-- uid: az_functionapp_config
-  name: az functionapp config
-  href: /cli/azure/functionapp/config
-- uid: az_functionapp_config_appsettings
-  name: az functionapp config appsettings
-  href: /cli/azure/functionapp/config/appsettings
-- uid: az_functionapp_config_appsettings_delete
-  name: az functionapp config appsettings delete
-  href: /cli/azure/functionapp/config/appsettings#az_functionapp_config_appsettings_delete
-- uid: az_functionapp_config_appsettings_list
-  name: az functionapp config appsettings list
-  href: /cli/azure/functionapp/config/appsettings#az_functionapp_config_appsettings_list
-- uid: az_functionapp_config_appsettings_set
-  name: az functionapp config appsettings set
-  href: /cli/azure/functionapp/config/appsettings#az_functionapp_config_appsettings_set
-- uid: az_functionapp_config_hostname
-  name: az functionapp config hostname
-  href: /cli/azure/functionapp/config/hostname
-- uid: az_functionapp_config_hostname_add
-  name: az functionapp config hostname add
-  href: /cli/azure/functionapp/config/hostname#az_functionapp_config_hostname_add
-- uid: az_functionapp_config_hostname_delete
-  name: az functionapp config hostname delete
-  href: /cli/azure/functionapp/config/hostname#az_functionapp_config_hostname_delete
-- uid: az_functionapp_config_hostname_get_external_ip
-  name: az functionapp config hostname get-external-ip
-  href: /cli/azure/functionapp/config/hostname#az_functionapp_config_hostname_get_external_ip
-- uid: az_functionapp_config_hostname_list
-  name: az functionapp config hostname list
-  href: /cli/azure/functionapp/config/hostname#az_functionapp_config_hostname_list
-- uid: az_functionapp_config_ssl
-  name: az functionapp config ssl
-  href: /cli/azure/functionapp/config/ssl
-- uid: az_functionapp_config_ssl_bind
-  name: az functionapp config ssl bind
-  href: /cli/azure/functionapp/config/ssl#az_functionapp_config_ssl_bind
-- uid: az_functionapp_config_ssl_delete
-  name: az functionapp config ssl delete
-  href: /cli/azure/functionapp/config/ssl#az_functionapp_config_ssl_delete
-- uid: az_functionapp_config_ssl_list
-  name: az functionapp config ssl list
-  href: /cli/azure/functionapp/config/ssl#az_functionapp_config_ssl_list
-- uid: az_functionapp_config_ssl_unbind
-  name: az functionapp config ssl unbind
-  href: /cli/azure/functionapp/config/ssl#az_functionapp_config_ssl_unbind
-- uid: az_functionapp_config_ssl_upload
-  name: az functionapp config ssl upload
-  href: /cli/azure/functionapp/config/ssl#az_functionapp_config_ssl_upload
-- uid: az_functionapp_create
-  name: az functionapp create
-  href: /cli/azure/functionapp#az_functionapp_create
-- uid: az_functionapp_delete
-  name: az functionapp delete
-  href: /cli/azure/functionapp#az_functionapp_delete
-- uid: az_functionapp_deployment
-  name: az functionapp deployment
-  href: /cli/azure/functionapp/deployment
-- uid: az_functionapp_deployment_list_publishing_profiles
-  name: az functionapp deployment list-publishing-profiles
-  href: /cli/azure/functionapp/deployment#az_functionapp_deployment_list_publishing_profiles
-- uid: az_functionapp_deployment_source
-  name: az functionapp deployment source
-  href: /cli/azure/functionapp/deployment/source
-- uid: az_functionapp_deployment_source_config
-  name: az functionapp deployment source config
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_config
-- uid: az_functionapp_deployment_source_config_local_git
-  name: az functionapp deployment source config-local-git
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_config_local_git
-- uid: az_functionapp_deployment_source_delete
-  name: az functionapp deployment source delete
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_delete
-- uid: az_functionapp_deployment_source_show
-  name: az functionapp deployment source show
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_show
-- uid: az_functionapp_deployment_source_sync
-  name: az functionapp deployment source sync
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_sync
-- uid: az_functionapp_deployment_source_update_token
-  name: az functionapp deployment source update-token
-  href: /cli/azure/functionapp/deployment/source#az_functionapp_deployment_source_update_token
-- uid: az_functionapp_deployment_user
-  name: az functionapp deployment user
-  href: /cli/azure/functionapp/deployment/user
-- uid: az_functionapp_deployment_user_set
-  name: az functionapp deployment user set
-  href: /cli/azure/functionapp/deployment/user#az_functionapp_deployment_user_set
-- uid: az_functionapp_deployment_user_show
-  name: az functionapp deployment user show
-  href: /cli/azure/functionapp/deployment/user#az_functionapp_deployment_user_show
-- uid: az_functionapp_list
-  name: az functionapp list
-  href: /cli/azure/functionapp#az_functionapp_list
-- uid: az_functionapp_list_consumption_locations
-  name: az functionapp list-consumption-locations
-  href: /cli/azure/functionapp#az_functionapp_list_consumption_locations
-- uid: az_functionapp_restart
-  name: az functionapp restart
-  href: /cli/azure/functionapp#az_functionapp_restart
-- uid: az_functionapp_show
-  name: az functionapp show
-  href: /cli/azure/functionapp#az_functionapp_show
-- uid: az_functionapp_start
-  name: az functionapp start
-  href: /cli/azure/functionapp#az_functionapp_start
-- uid: az_functionapp_stop
-  name: az functionapp stop
-  href: /cli/azure/functionapp#az_functionapp_stop
 - uid: az_group
   name: az group
   href: /cli/azure/group
@@ -1417,6 +229,9 @@ references:
 - uid: az_group_deployment_export
   name: az group deployment export
   href: /cli/azure/group/deployment#az_group_deployment_export
+- uid: az_group_deployment_list
+  name: az group deployment list
+  href: /cli/azure/group/deployment#az_group_deployment_list
 - uid: az_group_deployment_operation
   name: az group deployment operation
   href: /cli/azure/group/deployment/operation
@@ -1453,129 +268,18 @@ references:
 - uid: az_group_wait
   name: az group wait
   href: /cli/azure/group#az_group_wait
+- uid: az_image
+  name: az image
+  href: /cli/azure/image
+- uid: az_image_create
+  name: az image create
+  href: /cli/azure/image#az_image_create
+- uid: az_image_list
+  name: az image list
+  href: /cli/azure/image#az_image_list
 - uid: az_interactive
   name: az interactive
   href: /cli/azure/index#az_interactive
-- uid: az_iot
-  name: az iot
-  href: /cli/azure/iot
-- uid: az_iot_device
-  name: az iot device
-  href: /cli/azure/iot/device
-- uid: az_iot_device_create
-  name: az iot device create
-  href: /cli/azure/iot/device#az_iot_device_create
-- uid: az_iot_device_delete
-  name: az iot device delete
-  href: /cli/azure/iot/device#az_iot_device_delete
-- uid: az_iot_device_export
-  name: az iot device export
-  href: /cli/azure/iot/device#az_iot_device_export
-- uid: az_iot_device_import
-  name: az iot device import
-  href: /cli/azure/iot/device#az_iot_device_import
-- uid: az_iot_device_list
-  name: az iot device list
-  href: /cli/azure/iot/device#az_iot_device_list
-- uid: az_iot_device_message
-  name: az iot device message
-  href: /cli/azure/iot/device/message
-- uid: az_iot_device_message_abandon
-  name: az iot device message abandon
-  href: /cli/azure/iot/device/message#az_iot_device_message_abandon
-- uid: az_iot_device_message_complete
-  name: az iot device message complete
-  href: /cli/azure/iot/device/message#az_iot_device_message_complete
-- uid: az_iot_device_message_receive
-  name: az iot device message receive
-  href: /cli/azure/iot/device/message#az_iot_device_message_receive
-- uid: az_iot_device_message_reject
-  name: az iot device message reject
-  href: /cli/azure/iot/device/message#az_iot_device_message_reject
-- uid: az_iot_device_message_send
-  name: az iot device message send
-  href: /cli/azure/iot/device/message#az_iot_device_message_send
-- uid: az_iot_device_show
-  name: az iot device show
-  href: /cli/azure/iot/device#az_iot_device_show
-- uid: az_iot_device_show_connection_string
-  name: az iot device show-connection-string
-  href: /cli/azure/iot/device#az_iot_device_show_connection_string
-- uid: az_iot_device_update
-  name: az iot device update
-  href: /cli/azure/iot/device#az_iot_device_update
-- uid: az_iot_hub
-  name: az iot hub
-  href: /cli/azure/iot/hub
-- uid: az_iot_hub_consumer_group
-  name: az iot hub consumer-group
-  href: /cli/azure/iot/hub/consumer-group
-- uid: az_iot_hub_consumer_group_create
-  name: az iot hub consumer-group create
-  href: /cli/azure/iot/hub/consumer-group#az_iot_hub_consumer_group_create
-- uid: az_iot_hub_consumer_group_delete
-  name: az iot hub consumer-group delete
-  href: /cli/azure/iot/hub/consumer-group#az_iot_hub_consumer_group_delete
-- uid: az_iot_hub_consumer_group_list
-  name: az iot hub consumer-group list
-  href: /cli/azure/iot/hub/consumer-group#az_iot_hub_consumer_group_list
-- uid: az_iot_hub_consumer_group_show
-  name: az iot hub consumer-group show
-  href: /cli/azure/iot/hub/consumer-group#az_iot_hub_consumer_group_show
-- uid: az_iot_hub_create
-  name: az iot hub create
-  href: /cli/azure/iot/hub#az_iot_hub_create
-- uid: az_iot_hub_delete
-  name: az iot hub delete
-  href: /cli/azure/iot/hub#az_iot_hub_delete
-- uid: az_iot_hub_job
-  name: az iot hub job
-  href: /cli/azure/iot/hub/job
-- uid: az_iot_hub_job_cancel
-  name: az iot hub job cancel
-  href: /cli/azure/iot/hub/job#az_iot_hub_job_cancel
-- uid: az_iot_hub_job_list
-  name: az iot hub job list
-  href: /cli/azure/iot/hub/job#az_iot_hub_job_list
-- uid: az_iot_hub_job_show
-  name: az iot hub job show
-  href: /cli/azure/iot/hub/job#az_iot_hub_job_show
-- uid: az_iot_hub_list
-  name: az iot hub list
-  href: /cli/azure/iot/hub#az_iot_hub_list
-- uid: az_iot_hub_list_skus
-  name: az iot hub list-skus
-  href: /cli/azure/iot/hub#az_iot_hub_list_skus
-- uid: az_iot_hub_policy
-  name: az iot hub policy
-  href: /cli/azure/iot/hub/policy
-- uid: az_iot_hub_policy_create
-  name: az iot hub policy create
-  href: /cli/azure/iot/hub/policy#az_iot_hub_policy_create
-- uid: az_iot_hub_policy_delete
-  name: az iot hub policy delete
-  href: /cli/azure/iot/hub/policy#az_iot_hub_policy_delete
-- uid: az_iot_hub_policy_list
-  name: az iot hub policy list
-  href: /cli/azure/iot/hub/policy#az_iot_hub_policy_list
-- uid: az_iot_hub_policy_show
-  name: az iot hub policy show
-  href: /cli/azure/iot/hub/policy#az_iot_hub_policy_show
-- uid: az_iot_hub_show
-  name: az iot hub show
-  href: /cli/azure/iot/hub#az_iot_hub_show
-- uid: az_iot_hub_show_connection_string
-  name: az iot hub show-connection-string
-  href: /cli/azure/iot/hub#az_iot_hub_show_connection_string
-- uid: az_iot_hub_show_quota_metrics
-  name: az iot hub show-quota-metrics
-  href: /cli/azure/iot/hub#az_iot_hub_show_quota_metrics
-- uid: az_iot_hub_show_stats
-  name: az iot hub show-stats
-  href: /cli/azure/iot/hub#az_iot_hub_show_stats
-- uid: az_iot_hub_update
-  name: az iot hub update
-  href: /cli/azure/iot/hub#az_iot_hub_update
 - uid: az_keyvault
   name: az keyvault
   href: /cli/azure/keyvault
@@ -1789,141 +493,6 @@ references:
 - uid: az_keyvault_update
   name: az keyvault update
   href: /cli/azure/keyvault#az_keyvault_update
-- uid: az_lab
-  name: az lab
-  href: /cli/azure/lab
-- uid: az_lab_arm_template
-  name: az lab arm-template
-  href: /cli/azure/lab/arm-template
-- uid: az_lab_arm_template_list
-  name: az lab arm-template list
-  href: /cli/azure/lab/arm-template#az_lab_arm_template_list
-- uid: az_lab_arm_template_show
-  name: az lab arm-template show
-  href: /cli/azure/lab/arm-template#az_lab_arm_template_show
-- uid: az_lab_artifact
-  name: az lab artifact
-  href: /cli/azure/lab/artifact
-- uid: az_lab_artifact_list
-  name: az lab artifact list
-  href: /cli/azure/lab/artifact#az_lab_artifact_list
-- uid: az_lab_artifact_source
-  name: az lab artifact-source
-  href: /cli/azure/lab/artifact-source
-- uid: az_lab_artifact_source_list
-  name: az lab artifact-source list
-  href: /cli/azure/lab/artifact-source#az_lab_artifact_source_list
-- uid: az_lab_artifact_source_show
-  name: az lab artifact-source show
-  href: /cli/azure/lab/artifact-source#az_lab_artifact_source_show
-- uid: az_lab_custom_image
-  name: az lab custom-image
-  href: /cli/azure/lab/custom-image
-- uid: az_lab_custom_image_create
-  name: az lab custom-image create
-  href: /cli/azure/lab/custom-image#az_lab_custom_image_create
-- uid: az_lab_custom_image_delete
-  name: az lab custom-image delete
-  href: /cli/azure/lab/custom-image#az_lab_custom_image_delete
-- uid: az_lab_custom_image_list
-  name: az lab custom-image list
-  href: /cli/azure/lab/custom-image#az_lab_custom_image_list
-- uid: az_lab_custom_image_show
-  name: az lab custom-image show
-  href: /cli/azure/lab/custom-image#az_lab_custom_image_show
-- uid: az_lab_delete
-  name: az lab delete
-  href: /cli/azure/lab#az_lab_delete
-- uid: az_lab_environment
-  name: az lab environment
-  href: /cli/azure/lab/environment
-- uid: az_lab_environment_create
-  name: az lab environment create
-  href: /cli/azure/lab/environment#az_lab_environment_create
-- uid: az_lab_environment_delete
-  name: az lab environment delete
-  href: /cli/azure/lab/environment#az_lab_environment_delete
-- uid: az_lab_environment_list
-  name: az lab environment list
-  href: /cli/azure/lab/environment#az_lab_environment_list
-- uid: az_lab_environment_show
-  name: az lab environment show
-  href: /cli/azure/lab/environment#az_lab_environment_show
-- uid: az_lab_formula
-  name: az lab formula
-  href: /cli/azure/lab/formula
-- uid: az_lab_formula_delete
-  name: az lab formula delete
-  href: /cli/azure/lab/formula#az_lab_formula_delete
-- uid: az_lab_formula_export_artifacts
-  name: az lab formula export-artifacts
-  href: /cli/azure/lab/formula#az_lab_formula_export_artifacts
-- uid: az_lab_formula_list
-  name: az lab formula list
-  href: /cli/azure/lab/formula#az_lab_formula_list
-- uid: az_lab_formula_show
-  name: az lab formula show
-  href: /cli/azure/lab/formula#az_lab_formula_show
-- uid: az_lab_gallery_image
-  name: az lab gallery-image
-  href: /cli/azure/lab/gallery-image
-- uid: az_lab_gallery_image_list
-  name: az lab gallery-image list
-  href: /cli/azure/lab/gallery-image#az_lab_gallery_image_list
-- uid: az_lab_get
-  name: az lab get
-  href: /cli/azure/lab#az_lab_get
-- uid: az_lab_secret
-  name: az lab secret
-  href: /cli/azure/lab/secret
-- uid: az_lab_secret_delete
-  name: az lab secret delete
-  href: /cli/azure/lab/secret#az_lab_secret_delete
-- uid: az_lab_secret_list
-  name: az lab secret list
-  href: /cli/azure/lab/secret#az_lab_secret_list
-- uid: az_lab_secret_set
-  name: az lab secret set
-  href: /cli/azure/lab/secret#az_lab_secret_set
-- uid: az_lab_secret_show
-  name: az lab secret show
-  href: /cli/azure/lab/secret#az_lab_secret_show
-- uid: az_lab_vm
-  name: az lab vm
-  href: /cli/azure/lab/vm
-- uid: az_lab_vm_apply_artifacts
-  name: az lab vm apply-artifacts
-  href: /cli/azure/lab/vm#az_lab_vm_apply_artifacts
-- uid: az_lab_vm_claim
-  name: az lab vm claim
-  href: /cli/azure/lab/vm#az_lab_vm_claim
-- uid: az_lab_vm_create
-  name: az lab vm create
-  href: /cli/azure/lab/vm#az_lab_vm_create
-- uid: az_lab_vm_delete
-  name: az lab vm delete
-  href: /cli/azure/lab/vm#az_lab_vm_delete
-- uid: az_lab_vm_list
-  name: az lab vm list
-  href: /cli/azure/lab/vm#az_lab_vm_list
-- uid: az_lab_vm_show
-  name: az lab vm show
-  href: /cli/azure/lab/vm#az_lab_vm_show
-- uid: az_lab_vm_start
-  name: az lab vm start
-  href: /cli/azure/lab/vm#az_lab_vm_start
-- uid: az_lab_vm_stop
-  name: az lab vm stop
-  href: /cli/azure/lab/vm#az_lab_vm_stop
-- uid: az_lab_vnet
-  name: az lab vnet
-  href: /cli/azure/lab/vnet
-- uid: az_lab_vnet_get
-  name: az lab vnet get
-  href: /cli/azure/lab/vnet#az_lab_vnet_get
-- uid: az_lab_vnet_list
-  name: az lab vnet list
-  href: /cli/azure/lab/vnet#az_lab_vnet_list
 - uid: az_lock
   name: az lock
   href: /cli/azure/lock
@@ -1948,198 +517,6 @@ references:
 - uid: az_logout
   name: az logout
   href: /cli/azure/index#az_logout
-- uid: az_managedapp
-  name: az managedapp
-  href: /cli/azure/managedapp
-- uid: az_managedapp_create
-  name: az managedapp create
-  href: /cli/azure/managedapp#az_managedapp_create
-- uid: az_managedapp_definition
-  name: az managedapp definition
-  href: /cli/azure/managedapp/definition
-- uid: az_managedapp_definition_create
-  name: az managedapp definition create
-  href: /cli/azure/managedapp/definition#az_managedapp_definition_create
-- uid: az_managedapp_definition_delete
-  name: az managedapp definition delete
-  href: /cli/azure/managedapp/definition#az_managedapp_definition_delete
-- uid: az_managedapp_definition_list
-  name: az managedapp definition list
-  href: /cli/azure/managedapp/definition#az_managedapp_definition_list
-- uid: az_managedapp_definition_show
-  name: az managedapp definition show
-  href: /cli/azure/managedapp/definition#az_managedapp_definition_show
-- uid: az_managedapp_delete
-  name: az managedapp delete
-  href: /cli/azure/managedapp#az_managedapp_delete
-- uid: az_managedapp_list
-  name: az managedapp list
-  href: /cli/azure/managedapp#az_managedapp_list
-- uid: az_managedapp_show
-  name: az managedapp show
-  href: /cli/azure/managedapp#az_managedapp_show
-- uid: az_monitor
-  name: az monitor
-  href: /cli/azure/monitor
-- uid: az_monitor_activity_log
-  name: az monitor activity-log
-  href: /cli/azure/monitor/activity-log
-- uid: az_monitor_activity_log_list
-  name: az monitor activity-log list
-  href: /cli/azure/monitor/activity-log#az_monitor_activity_log_list
-- uid: az_monitor_alert
-  name: az monitor alert
-  href: /cli/azure/monitor/alert
-- uid: az_monitor_alert_create
-  name: az monitor alert create
-  href: /cli/azure/monitor/alert#az_monitor_alert_create
-- uid: az_monitor_alert_delete
-  name: az monitor alert delete
-  href: /cli/azure/monitor/alert#az_monitor_alert_delete
-- uid: az_monitor_alert_list
-  name: az monitor alert list
-  href: /cli/azure/monitor/alert#az_monitor_alert_list
-- uid: az_monitor_alert_list_incidents
-  name: az monitor alert list-incidents
-  href: /cli/azure/monitor/alert#az_monitor_alert_list_incidents
-- uid: az_monitor_alert_show
-  name: az monitor alert show
-  href: /cli/azure/monitor/alert#az_monitor_alert_show
-- uid: az_monitor_alert_show_incident
-  name: az monitor alert show-incident
-  href: /cli/azure/monitor/alert#az_monitor_alert_show_incident
-- uid: az_monitor_alert_update
-  name: az monitor alert update
-  href: /cli/azure/monitor/alert#az_monitor_alert_update
-- uid: az_monitor_autoscale_settings
-  name: az monitor autoscale-settings
-  href: /cli/azure/monitor/autoscale-settings
-- uid: az_monitor_autoscale_settings_create
-  name: az monitor autoscale-settings create
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_create
-- uid: az_monitor_autoscale_settings_delete
-  name: az monitor autoscale-settings delete
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_delete
-- uid: az_monitor_autoscale_settings_get_parameters_template
-  name: az monitor autoscale-settings get-parameters-template
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_get_parameters_template
-- uid: az_monitor_autoscale_settings_list
-  name: az monitor autoscale-settings list
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_list
-- uid: az_monitor_autoscale_settings_show
-  name: az monitor autoscale-settings show
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_show
-- uid: az_monitor_autoscale_settings_update
-  name: az monitor autoscale-settings update
-  href: /cli/azure/monitor/autoscale-settings#az_monitor_autoscale_settings_update
-- uid: az_monitor_diagnostic_settings
-  name: az monitor diagnostic-settings
-  href: /cli/azure/monitor/diagnostic-settings
-- uid: az_monitor_diagnostic_settings_create
-  name: az monitor diagnostic-settings create
-  href: /cli/azure/monitor/diagnostic-settings#az_monitor_diagnostic_settings_create
-- uid: az_monitor_diagnostic_settings_show
-  name: az monitor diagnostic-settings show
-  href: /cli/azure/monitor/diagnostic-settings#az_monitor_diagnostic_settings_show
-- uid: az_monitor_diagnostic_settings_update
-  name: az monitor diagnostic-settings update
-  href: /cli/azure/monitor/diagnostic-settings#az_monitor_diagnostic_settings_update
-- uid: az_monitor_log_profiles
-  name: az monitor log-profiles
-  href: /cli/azure/monitor/log-profiles
-- uid: az_monitor_log_profiles_create
-  name: az monitor log-profiles create
-  href: /cli/azure/monitor/log-profiles#az_monitor_log_profiles_create
-- uid: az_monitor_log_profiles_delete
-  name: az monitor log-profiles delete
-  href: /cli/azure/monitor/log-profiles#az_monitor_log_profiles_delete
-- uid: az_monitor_log_profiles_list
-  name: az monitor log-profiles list
-  href: /cli/azure/monitor/log-profiles#az_monitor_log_profiles_list
-- uid: az_monitor_log_profiles_show
-  name: az monitor log-profiles show
-  href: /cli/azure/monitor/log-profiles#az_monitor_log_profiles_show
-- uid: az_monitor_log_profiles_update
-  name: az monitor log-profiles update
-  href: /cli/azure/monitor/log-profiles#az_monitor_log_profiles_update
-- uid: az_monitor_metrics
-  name: az monitor metrics
-  href: /cli/azure/monitor/metrics
-- uid: az_monitor_metrics_list
-  name: az monitor metrics list
-  href: /cli/azure/monitor/metrics#az_monitor_metrics_list
-- uid: az_monitor_metrics_list_definitions
-  name: az monitor metrics list-definitions
-  href: /cli/azure/monitor/metrics#az_monitor_metrics_list_definitions
-- uid: az_mysql
-  name: az mysql
-  href: /cli/azure/mysql
-- uid: az_mysql_db
-  name: az mysql db
-  href: /cli/azure/mysql/db
-- uid: az_mysql_db_list
-  name: az mysql db list
-  href: /cli/azure/mysql/db#az_mysql_db_list
-- uid: az_mysql_server
-  name: az mysql server
-  href: /cli/azure/mysql/server
-- uid: az_mysql_server_configuration
-  name: az mysql server configuration
-  href: /cli/azure/mysql/server/configuration
-- uid: az_mysql_server_configuration_list
-  name: az mysql server configuration list
-  href: /cli/azure/mysql/server/configuration#az_mysql_server_configuration_list
-- uid: az_mysql_server_configuration_set
-  name: az mysql server configuration set
-  href: /cli/azure/mysql/server/configuration#az_mysql_server_configuration_set
-- uid: az_mysql_server_configuration_show
-  name: az mysql server configuration show
-  href: /cli/azure/mysql/server/configuration#az_mysql_server_configuration_show
-- uid: az_mysql_server_create
-  name: az mysql server create
-  href: /cli/azure/mysql/server#az_mysql_server_create
-- uid: az_mysql_server_delete
-  name: az mysql server delete
-  href: /cli/azure/mysql/server#az_mysql_server_delete
-- uid: az_mysql_server_firewall_rule
-  name: az mysql server firewall-rule
-  href: /cli/azure/mysql/server/firewall-rule
-- uid: az_mysql_server_firewall_rule_create
-  name: az mysql server firewall-rule create
-  href: /cli/azure/mysql/server/firewall-rule#az_mysql_server_firewall_rule_create
-- uid: az_mysql_server_firewall_rule_delete
-  name: az mysql server firewall-rule delete
-  href: /cli/azure/mysql/server/firewall-rule#az_mysql_server_firewall_rule_delete
-- uid: az_mysql_server_firewall_rule_list
-  name: az mysql server firewall-rule list
-  href: /cli/azure/mysql/server/firewall-rule#az_mysql_server_firewall_rule_list
-- uid: az_mysql_server_firewall_rule_show
-  name: az mysql server firewall-rule show
-  href: /cli/azure/mysql/server/firewall-rule#az_mysql_server_firewall_rule_show
-- uid: az_mysql_server_firewall_rule_update
-  name: az mysql server firewall-rule update
-  href: /cli/azure/mysql/server/firewall-rule#az_mysql_server_firewall_rule_update
-- uid: az_mysql_server_list
-  name: az mysql server list
-  href: /cli/azure/mysql/server#az_mysql_server_list
-- uid: az_mysql_server_logs
-  name: az mysql server-logs
-  href: /cli/azure/mysql/server-logs
-- uid: az_mysql_server_logs_download
-  name: az mysql server-logs download
-  href: /cli/azure/mysql/server-logs#az_mysql_server_logs_download
-- uid: az_mysql_server_logs_list
-  name: az mysql server-logs list
-  href: /cli/azure/mysql/server-logs#az_mysql_server_logs_list
-- uid: az_mysql_server_restore
-  name: az mysql server restore
-  href: /cli/azure/mysql/server#az_mysql_server_restore
-- uid: az_mysql_server_show
-  name: az mysql server show
-  href: /cli/azure/mysql/server#az_mysql_server_show
-- uid: az_mysql_server_update
-  name: az mysql server update
-  href: /cli/azure/mysql/server#az_mysql_server_update
 - uid: az_network
   name: az network
   href: /cli/azure/network
@@ -3028,6 +1405,12 @@ references:
 - uid: az_network_vnet_gateway_update
   name: az network vnet-gateway update
   href: /cli/azure/network/vnet-gateway#az_network_vnet_gateway_update
+- uid: az_network_vnet_gateway_vpn_client
+  name: az network vnet-gateway vpn-client
+  href: /cli/azure/network/vnet-gateway/vpn-client
+- uid: az_network_vnet_gateway_vpn_client_generate
+  name: az network vnet-gateway vpn-client generate
+  href: /cli/azure/network/vnet-gateway/vpn-client#az_network_vnet_gateway_vpn_client_generate
 - uid: az_network_vnet_gateway_wait
   name: az network vnet-gateway wait
   href: /cli/azure/network/vnet-gateway#az_network_vnet_gateway_wait
@@ -3115,6 +1498,12 @@ references:
 - uid: az_network_watcher_flow_log_show
   name: az network watcher flow-log show
   href: /cli/azure/network/watcher/flow-log#az_network_watcher_flow_log_show
+- uid: az_network_watcher_packet_capture
+  name: az network watcher packet-capture
+  href: /cli/azure/network/watcher/packet-capture
+- uid: az_network_watcher_packet_capture_create
+  name: az network watcher packet-capture create
+  href: /cli/azure/network/watcher/packet-capture#az_network_watcher_packet_capture_create
 - uid: az_network_watcher_show_next_hop
   name: az network watcher show-next-hop
   href: /cli/azure/network/watcher#az_network_watcher_show_next_hop
@@ -3172,75 +1561,6 @@ references:
 - uid: az_policy_definition_update
   name: az policy definition update
   href: /cli/azure/policy/definition#az_policy_definition_update
-- uid: az_postgres
-  name: az postgres
-  href: /cli/azure/postgres
-- uid: az_postgres_db
-  name: az postgres db
-  href: /cli/azure/postgres/db
-- uid: az_postgres_db_list
-  name: az postgres db list
-  href: /cli/azure/postgres/db#az_postgres_db_list
-- uid: az_postgres_server
-  name: az postgres server
-  href: /cli/azure/postgres/server
-- uid: az_postgres_server_configuration
-  name: az postgres server configuration
-  href: /cli/azure/postgres/server/configuration
-- uid: az_postgres_server_configuration_list
-  name: az postgres server configuration list
-  href: /cli/azure/postgres/server/configuration#az_postgres_server_configuration_list
-- uid: az_postgres_server_configuration_set
-  name: az postgres server configuration set
-  href: /cli/azure/postgres/server/configuration#az_postgres_server_configuration_set
-- uid: az_postgres_server_configuration_show
-  name: az postgres server configuration show
-  href: /cli/azure/postgres/server/configuration#az_postgres_server_configuration_show
-- uid: az_postgres_server_create
-  name: az postgres server create
-  href: /cli/azure/postgres/server#az_postgres_server_create
-- uid: az_postgres_server_delete
-  name: az postgres server delete
-  href: /cli/azure/postgres/server#az_postgres_server_delete
-- uid: az_postgres_server_firewall_rule
-  name: az postgres server firewall-rule
-  href: /cli/azure/postgres/server/firewall-rule
-- uid: az_postgres_server_firewall_rule_create
-  name: az postgres server firewall-rule create
-  href: /cli/azure/postgres/server/firewall-rule#az_postgres_server_firewall_rule_create
-- uid: az_postgres_server_firewall_rule_delete
-  name: az postgres server firewall-rule delete
-  href: /cli/azure/postgres/server/firewall-rule#az_postgres_server_firewall_rule_delete
-- uid: az_postgres_server_firewall_rule_list
-  name: az postgres server firewall-rule list
-  href: /cli/azure/postgres/server/firewall-rule#az_postgres_server_firewall_rule_list
-- uid: az_postgres_server_firewall_rule_show
-  name: az postgres server firewall-rule show
-  href: /cli/azure/postgres/server/firewall-rule#az_postgres_server_firewall_rule_show
-- uid: az_postgres_server_firewall_rule_update
-  name: az postgres server firewall-rule update
-  href: /cli/azure/postgres/server/firewall-rule#az_postgres_server_firewall_rule_update
-- uid: az_postgres_server_list
-  name: az postgres server list
-  href: /cli/azure/postgres/server#az_postgres_server_list
-- uid: az_postgres_server_logs
-  name: az postgres server-logs
-  href: /cli/azure/postgres/server-logs
-- uid: az_postgres_server_logs_download
-  name: az postgres server-logs download
-  href: /cli/azure/postgres/server-logs#az_postgres_server_logs_download
-- uid: az_postgres_server_logs_list
-  name: az postgres server-logs list
-  href: /cli/azure/postgres/server-logs#az_postgres_server_logs_list
-- uid: az_postgres_server_restore
-  name: az postgres server restore
-  href: /cli/azure/postgres/server#az_postgres_server_restore
-- uid: az_postgres_server_show
-  name: az postgres server show
-  href: /cli/azure/postgres/server#az_postgres_server_show
-- uid: az_postgres_server_update
-  name: az postgres server update
-  href: /cli/azure/postgres/server#az_postgres_server_update
 - uid: az_provider
   name: az provider
   href: /cli/azure/provider
@@ -3265,57 +1585,6 @@ references:
 - uid: az_provider_unregister
   name: az provider unregister
   href: /cli/azure/provider#az_provider_unregister
-- uid: az_redis
-  name: az redis
-  href: /cli/azure/redis
-- uid: az_redis_create
-  name: az redis create
-  href: /cli/azure/redis#az_redis_create
-- uid: az_redis_delete
-  name: az redis delete
-  href: /cli/azure/redis#az_redis_delete
-- uid: az_redis_export
-  name: az redis export
-  href: /cli/azure/redis#az_redis_export
-- uid: az_redis_force_reboot
-  name: az redis force-reboot
-  href: /cli/azure/redis#az_redis_force_reboot
-- uid: az_redis_import_method
-  name: az redis import-method
-  href: /cli/azure/redis#az_redis_import_method
-- uid: az_redis_list
-  name: az redis list
-  href: /cli/azure/redis#az_redis_list
-- uid: az_redis_list_all
-  name: az redis list-all
-  href: /cli/azure/redis#az_redis_list_all
-- uid: az_redis_list_keys
-  name: az redis list-keys
-  href: /cli/azure/redis#az_redis_list_keys
-- uid: az_redis_patch_schedule
-  name: az redis patch-schedule
-  href: /cli/azure/redis/patch-schedule
-- uid: az_redis_patch_schedule_delete
-  name: az redis patch-schedule delete
-  href: /cli/azure/redis/patch-schedule#az_redis_patch_schedule_delete
-- uid: az_redis_patch_schedule_set
-  name: az redis patch-schedule set
-  href: /cli/azure/redis/patch-schedule#az_redis_patch_schedule_set
-- uid: az_redis_patch_schedule_show
-  name: az redis patch-schedule show
-  href: /cli/azure/redis/patch-schedule#az_redis_patch_schedule_show
-- uid: az_redis_regenerate_keys
-  name: az redis regenerate-keys
-  href: /cli/azure/redis#az_redis_regenerate_keys
-- uid: az_redis_show
-  name: az redis show
-  href: /cli/azure/redis#az_redis_show
-- uid: az_redis_update
-  name: az redis update
-  href: /cli/azure/redis#az_redis_update
-- uid: az_redis_update_settings
-  name: az redis update-settings
-  href: /cli/azure/redis#az_redis_update_settings
 - uid: az_resource
   name: az resource
   href: /cli/azure/resource
@@ -3388,360 +1657,6 @@ references:
 - uid: az_role_definition_update
   name: az role definition update
   href: /cli/azure/role/definition#az_role_definition_update
-- uid: az_sf
-  name: az sf
-  href: /cli/azure/sf
-- uid: az_sf_application
-  name: az sf application
-  href: /cli/azure/sf/application
-- uid: az_sf_application_create
-  name: az sf application create
-  href: /cli/azure/sf/application#az_sf_application_create
-- uid: az_sf_application_delete
-  name: az sf application delete
-  href: /cli/azure/sf/application#az_sf_application_delete
-- uid: az_sf_application_health
-  name: az sf application health
-  href: /cli/azure/sf/application#az_sf_application_health
-- uid: az_sf_application_list
-  name: az sf application list
-  href: /cli/azure/sf/application#az_sf_application_list
-- uid: az_sf_application_manifest
-  name: az sf application manifest
-  href: /cli/azure/sf/application#az_sf_application_manifest
-- uid: az_sf_application_package_delete
-  name: az sf application package-delete
-  href: /cli/azure/sf/application#az_sf_application_package_delete
-- uid: az_sf_application_provision
-  name: az sf application provision
-  href: /cli/azure/sf/application#az_sf_application_provision
-- uid: az_sf_application_report_health
-  name: az sf application report-health
-  href: /cli/azure/sf/application#az_sf_application_report_health
-- uid: az_sf_application_type
-  name: az sf application type
-  href: /cli/azure/sf/application#az_sf_application_type
-- uid: az_sf_application_unprovision
-  name: az sf application unprovision
-  href: /cli/azure/sf/application#az_sf_application_unprovision
-- uid: az_sf_application_upgrade
-  name: az sf application upgrade
-  href: /cli/azure/sf/application#az_sf_application_upgrade
-- uid: az_sf_application_upload
-  name: az sf application upload
-  href: /cli/azure/sf/application#az_sf_application_upload
-- uid: az_sf_chaos
-  name: az sf chaos
-  href: /cli/azure/sf/chaos
-- uid: az_sf_chaos_start
-  name: az sf chaos start
-  href: /cli/azure/sf/chaos#az_sf_chaos_start
-- uid: az_sf_cluster
-  name: az sf cluster
-  href: /cli/azure/sf/cluster
-- uid: az_sf_cluster_code_version
-  name: az sf cluster code-version
-  href: /cli/azure/sf/cluster#az_sf_cluster_code_version
-- uid: az_sf_cluster_config_version
-  name: az sf cluster config-version
-  href: /cli/azure/sf/cluster#az_sf_cluster_config_version
-- uid: az_sf_cluster_health
-  name: az sf cluster health
-  href: /cli/azure/sf/cluster#az_sf_cluster_health
-- uid: az_sf_cluster_manifest
-  name: az sf cluster manifest
-  href: /cli/azure/sf/cluster#az_sf_cluster_manifest
-- uid: az_sf_cluster_select
-  name: az sf cluster select
-  href: /cli/azure/sf/cluster#az_sf_cluster_select
-- uid: az_sf_compose
-  name: az sf compose
-  href: /cli/azure/sf/compose
-- uid: az_sf_compose_create
-  name: az sf compose create
-  href: /cli/azure/sf/compose#az_sf_compose_create
-- uid: az_sf_compose_list
-  name: az sf compose list
-  href: /cli/azure/sf/compose#az_sf_compose_list
-- uid: az_sf_compose_remove
-  name: az sf compose remove
-  href: /cli/azure/sf/compose#az_sf_compose_remove
-- uid: az_sf_compose_status
-  name: az sf compose status
-  href: /cli/azure/sf/compose#az_sf_compose_status
-- uid: az_sf_node
-  name: az sf node
-  href: /cli/azure/sf/node
-- uid: az_sf_node_code_package
-  name: az sf node code-package
-  href: /cli/azure/sf/node#az_sf_node_code_package
-- uid: az_sf_node_list
-  name: az sf node list
-  href: /cli/azure/sf/node#az_sf_node_list
-- uid: az_sf_node_load
-  name: az sf node load
-  href: /cli/azure/sf/node#az_sf_node_load
-- uid: az_sf_node_remove_state
-  name: az sf node remove-state
-  href: /cli/azure/sf/node#az_sf_node_remove_state
-- uid: az_sf_node_replica_list
-  name: az sf node replica-list
-  href: /cli/azure/sf/node#az_sf_node_replica_list
-- uid: az_sf_node_report_health
-  name: az sf node report-health
-  href: /cli/azure/sf/node#az_sf_node_report_health
-- uid: az_sf_node_restart
-  name: az sf node restart
-  href: /cli/azure/sf/node#az_sf_node_restart
-- uid: az_sf_node_service_package
-  name: az sf node service-package
-  href: /cli/azure/sf/node#az_sf_node_service_package
-- uid: az_sf_node_service_package_list
-  name: az sf node service-package-list
-  href: /cli/azure/sf/node#az_sf_node_service_package_list
-- uid: az_sf_node_service_package_upload
-  name: az sf node service-package-upload
-  href: /cli/azure/sf/node#az_sf_node_service_package_upload
-- uid: az_sf_node_service_type
-  name: az sf node service-type
-  href: /cli/azure/sf/node#az_sf_node_service_type
-- uid: az_sf_node_service_type_list
-  name: az sf node service-type-list
-  href: /cli/azure/sf/node#az_sf_node_service_type_list
-- uid: az_sf_node_start
-  name: az sf node start
-  href: /cli/azure/sf/node#az_sf_node_start
-- uid: az_sf_node_stop
-  name: az sf node stop
-  href: /cli/azure/sf/node#az_sf_node_stop
-- uid: az_sf_partition
-  name: az sf partition
-  href: /cli/azure/sf/partition
-- uid: az_sf_partition_health
-  name: az sf partition health
-  href: /cli/azure/sf/partition#az_sf_partition_health
-- uid: az_sf_partition_info
-  name: az sf partition info
-  href: /cli/azure/sf/partition#az_sf_partition_info
-- uid: az_sf_partition_report_health
-  name: az sf partition report-health
-  href: /cli/azure/sf/partition#az_sf_partition_report_health
-- uid: az_sf_partition_service_name
-  name: az sf partition service-name
-  href: /cli/azure/sf/partition#az_sf_partition_service_name
-- uid: az_sf_replica
-  name: az sf replica
-  href: /cli/azure/sf/replica
-- uid: az_sf_replica_health
-  name: az sf replica health
-  href: /cli/azure/sf/replica#az_sf_replica_health
-- uid: az_sf_replica_report_health
-  name: az sf replica report-health
-  href: /cli/azure/sf/replica#az_sf_replica_report_health
-- uid: az_sf_service
-  name: az sf service
-  href: /cli/azure/sf/service
-- uid: az_sf_service_application_name
-  name: az sf service application-name
-  href: /cli/azure/sf/service#az_sf_service_application_name
-- uid: az_sf_service_create
-  name: az sf service create
-  href: /cli/azure/sf/service#az_sf_service_create
-- uid: az_sf_service_description
-  name: az sf service description
-  href: /cli/azure/sf/service#az_sf_service_description
-- uid: az_sf_service_health
-  name: az sf service health
-  href: /cli/azure/sf/service#az_sf_service_health
-- uid: az_sf_service_list
-  name: az sf service list
-  href: /cli/azure/sf/service#az_sf_service_list
-- uid: az_sf_service_manifest
-  name: az sf service manifest
-  href: /cli/azure/sf/service#az_sf_service_manifest
-- uid: az_sf_service_report_health
-  name: az sf service report-health
-  href: /cli/azure/sf/service#az_sf_service_report_health
-- uid: az_sf_service_resolve
-  name: az sf service resolve
-  href: /cli/azure/sf/service#az_sf_service_resolve
-- uid: az_sf_service_update
-  name: az sf service update
-  href: /cli/azure/sf/service#az_sf_service_update
-- uid: az_sql
-  name: az sql
-  href: /cli/azure/sql
-- uid: az_sql_db
-  name: az sql db
-  href: /cli/azure/sql/db
-- uid: az_sql_db_audit_policy
-  name: az sql db audit-policy
-  href: /cli/azure/sql/db/audit-policy
-- uid: az_sql_db_audit_policy_show
-  name: az sql db audit-policy show
-  href: /cli/azure/sql/db/audit-policy#az_sql_db_audit_policy_show
-- uid: az_sql_db_audit_policy_update
-  name: az sql db audit-policy update
-  href: /cli/azure/sql/db/audit-policy#az_sql_db_audit_policy_update
-- uid: az_sql_db_copy
-  name: az sql db copy
-  href: /cli/azure/sql/db#az_sql_db_copy
-- uid: az_sql_db_create
-  name: az sql db create
-  href: /cli/azure/sql/db#az_sql_db_create
-- uid: az_sql_db_delete
-  name: az sql db delete
-  href: /cli/azure/sql/db#az_sql_db_delete
-- uid: az_sql_db_export
-  name: az sql db export
-  href: /cli/azure/sql/db#az_sql_db_export
-- uid: az_sql_db_import
-  name: az sql db import
-  href: /cli/azure/sql/db#az_sql_db_import
-- uid: az_sql_db_list
-  name: az sql db list
-  href: /cli/azure/sql/db#az_sql_db_list
-- uid: az_sql_db_list_editions
-  name: az sql db list-editions
-  href: /cli/azure/sql/db#az_sql_db_list_editions
-- uid: az_sql_db_list_usages
-  name: az sql db list-usages
-  href: /cli/azure/sql/db#az_sql_db_list_usages
-- uid: az_sql_db_replica
-  name: az sql db replica
-  href: /cli/azure/sql/db/replica
-- uid: az_sql_db_replica_create
-  name: az sql db replica create
-  href: /cli/azure/sql/db/replica#az_sql_db_replica_create
-- uid: az_sql_db_replica_delete_link
-  name: az sql db replica delete-link
-  href: /cli/azure/sql/db/replica#az_sql_db_replica_delete_link
-- uid: az_sql_db_replica_list_links
-  name: az sql db replica list-links
-  href: /cli/azure/sql/db/replica#az_sql_db_replica_list_links
-- uid: az_sql_db_replica_set_primary
-  name: az sql db replica set-primary
-  href: /cli/azure/sql/db/replica#az_sql_db_replica_set_primary
-- uid: az_sql_db_restore
-  name: az sql db restore
-  href: /cli/azure/sql/db#az_sql_db_restore
-- uid: az_sql_db_show
-  name: az sql db show
-  href: /cli/azure/sql/db#az_sql_db_show
-- uid: az_sql_db_threat_policy
-  name: az sql db threat-policy
-  href: /cli/azure/sql/db/threat-policy
-- uid: az_sql_db_threat_policy_show
-  name: az sql db threat-policy show
-  href: /cli/azure/sql/db/threat-policy#az_sql_db_threat_policy_show
-- uid: az_sql_db_threat_policy_update
-  name: az sql db threat-policy update
-  href: /cli/azure/sql/db/threat-policy#az_sql_db_threat_policy_update
-- uid: az_sql_db_update
-  name: az sql db update
-  href: /cli/azure/sql/db#az_sql_db_update
-- uid: az_sql_dw
-  name: az sql dw
-  href: /cli/azure/sql/dw
-- uid: az_sql_dw_create
-  name: az sql dw create
-  href: /cli/azure/sql/dw#az_sql_dw_create
-- uid: az_sql_dw_delete
-  name: az sql dw delete
-  href: /cli/azure/sql/dw#az_sql_dw_delete
-- uid: az_sql_dw_list
-  name: az sql dw list
-  href: /cli/azure/sql/dw#az_sql_dw_list
-- uid: az_sql_dw_pause
-  name: az sql dw pause
-  href: /cli/azure/sql/dw#az_sql_dw_pause
-- uid: az_sql_dw_resume
-  name: az sql dw resume
-  href: /cli/azure/sql/dw#az_sql_dw_resume
-- uid: az_sql_dw_show
-  name: az sql dw show
-  href: /cli/azure/sql/dw#az_sql_dw_show
-- uid: az_sql_dw_update
-  name: az sql dw update
-  href: /cli/azure/sql/dw#az_sql_dw_update
-- uid: az_sql_elastic_pool
-  name: az sql elastic-pool
-  href: /cli/azure/sql/elastic-pool
-- uid: az_sql_elastic_pool_create
-  name: az sql elastic-pool create
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_create
-- uid: az_sql_elastic_pool_delete
-  name: az sql elastic-pool delete
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_delete
-- uid: az_sql_elastic_pool_list
-  name: az sql elastic-pool list
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_list
-- uid: az_sql_elastic_pool_list_dbs
-  name: az sql elastic-pool list-dbs
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_list_dbs
-- uid: az_sql_elastic_pool_list_editions
-  name: az sql elastic-pool list-editions
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_list_editions
-- uid: az_sql_elastic_pool_show
-  name: az sql elastic-pool show
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_show
-- uid: az_sql_elastic_pool_update
-  name: az sql elastic-pool update
-  href: /cli/azure/sql/elastic-pool#az_sql_elastic_pool_update
-- uid: az_sql_server
-  name: az sql server
-  href: /cli/azure/sql/server
-- uid: az_sql_server_ad_admin
-  name: az sql server ad-admin
-  href: /cli/azure/sql/server/ad-admin
-- uid: az_sql_server_ad_admin_create
-  name: az sql server ad-admin create
-  href: /cli/azure/sql/server/ad-admin#az_sql_server_ad_admin_create
-- uid: az_sql_server_ad_admin_delete
-  name: az sql server ad-admin delete
-  href: /cli/azure/sql/server/ad-admin#az_sql_server_ad_admin_delete
-- uid: az_sql_server_ad_admin_list
-  name: az sql server ad-admin list
-  href: /cli/azure/sql/server/ad-admin#az_sql_server_ad_admin_list
-- uid: az_sql_server_ad_admin_update
-  name: az sql server ad-admin update
-  href: /cli/azure/sql/server/ad-admin#az_sql_server_ad_admin_update
-- uid: az_sql_server_create
-  name: az sql server create
-  href: /cli/azure/sql/server#az_sql_server_create
-- uid: az_sql_server_delete
-  name: az sql server delete
-  href: /cli/azure/sql/server#az_sql_server_delete
-- uid: az_sql_server_firewall_rule
-  name: az sql server firewall-rule
-  href: /cli/azure/sql/server/firewall-rule
-- uid: az_sql_server_firewall_rule_create
-  name: az sql server firewall-rule create
-  href: /cli/azure/sql/server/firewall-rule#az_sql_server_firewall_rule_create
-- uid: az_sql_server_firewall_rule_delete
-  name: az sql server firewall-rule delete
-  href: /cli/azure/sql/server/firewall-rule#az_sql_server_firewall_rule_delete
-- uid: az_sql_server_firewall_rule_list
-  name: az sql server firewall-rule list
-  href: /cli/azure/sql/server/firewall-rule#az_sql_server_firewall_rule_list
-- uid: az_sql_server_firewall_rule_show
-  name: az sql server firewall-rule show
-  href: /cli/azure/sql/server/firewall-rule#az_sql_server_firewall_rule_show
-- uid: az_sql_server_firewall_rule_update
-  name: az sql server firewall-rule update
-  href: /cli/azure/sql/server/firewall-rule#az_sql_server_firewall_rule_update
-- uid: az_sql_server_list
-  name: az sql server list
-  href: /cli/azure/sql/server#az_sql_server_list
-- uid: az_sql_server_list_usages
-  name: az sql server list-usages
-  href: /cli/azure/sql/server#az_sql_server_list_usages
-- uid: az_sql_server_show
-  name: az sql server show
-  href: /cli/azure/sql/server#az_sql_server_show
-- uid: az_sql_server_update
-  name: az sql server update
-  href: /cli/azure/sql/server#az_sql_server_update
 - uid: az_storage
   name: az storage
   href: /cli/azure/storage
@@ -3811,6 +1726,12 @@ references:
 - uid: az_storage_blob_generate_sas
   name: az storage blob generate-sas
   href: /cli/azure/storage/blob#az_storage_blob_generate_sas
+- uid: az_storage_blob_incremental_copy
+  name: az storage blob incremental-copy
+  href: /cli/azure/storage/blob/incremental-copy
+- uid: az_storage_blob_incremental_copy_cancel
+  name: az storage blob incremental-copy cancel
+  href: /cli/azure/storage/blob/incremental-copy#az_storage_blob_incremental_copy_cancel
 - uid: az_storage_blob_lease
   name: az storage blob lease
   href: /cli/azure/storage/blob/lease
@@ -3847,6 +1768,9 @@ references:
 - uid: az_storage_blob_service_properties_show
   name: az storage blob service-properties show
   href: /cli/azure/storage/blob/service-properties#az_storage_blob_service_properties_show
+- uid: az_storage_blob_set_tier
+  name: az storage blob set-tier
+  href: /cli/azure/storage/blob#az_storage_blob_set_tier
 - uid: az_storage_blob_show
   name: az storage blob show
   href: /cli/azure/storage/blob#az_storage_blob_show
@@ -3925,9 +1849,6 @@ references:
 - uid: az_storage_container_policy_show
   name: az storage container policy show
   href: /cli/azure/storage/container/policy#az_storage_container_policy_show
-- uid: az_storage_container_policy_update
-  name: az storage container policy update
-  href: /cli/azure/storage/container/policy#az_storage_container_policy_update
 - uid: az_storage_container_set_permission
   name: az storage container set-permission
   href: /cli/azure/storage/container#az_storage_container_set_permission
@@ -4249,12 +2170,6 @@ references:
 - uid: az_tag_remove_value
   name: az tag remove-value
   href: /cli/azure/tag#az_tag_remove_value
-- uid: az_taskhelp
-  name: az taskhelp
-  href: /cli/azure/taskhelp
-- uid: az_taskhelp_deploy_arm_template
-  name: az taskhelp deploy-arm-template
-  href: /cli/azure/taskhelp#az_taskhelp_deploy_arm_template
 - uid: az_vm
   name: az vm
   href: /cli/azure/vm
@@ -4315,15 +2230,18 @@ references:
 - uid: az_vm_diagnostics_set
   name: az vm diagnostics set
   href: /cli/azure/vm/diagnostics#az_vm_diagnostics_set
-- uid: az_vm_disk
-  name: az vm disk
-  href: /cli/azure/vm/disk
-- uid: az_vm_disk_attach
-  name: az vm disk attach
-  href: /cli/azure/vm/disk#az_vm_disk_attach
-- uid: az_vm_disk_detach
-  name: az vm disk detach
-  href: /cli/azure/vm/disk#az_vm_disk_detach
+- uid: az_vm_encryption
+  name: az vm encryption
+  href: /cli/azure/vm/encryption
+- uid: az_vm_encryption_disable
+  name: az vm encryption disable
+  href: /cli/azure/vm/encryption#az_vm_encryption_disable
+- uid: az_vm_encryption_enable
+  name: az vm encryption enable
+  href: /cli/azure/vm/encryption#az_vm_encryption_enable
+- uid: az_vm_encryption_show
+  name: az vm encryption show
+  href: /cli/azure/vm/encryption#az_vm_encryption_show
 - uid: az_vm_extension
   name: az vm extension
   href: /cli/azure/vm/extension
@@ -4492,15 +2410,6 @@ references:
 - uid: az_vmss_diagnostics_set
   name: az vmss diagnostics set
   href: /cli/azure/vmss/diagnostics#az_vmss_diagnostics_set
-- uid: az_vmss_disk
-  name: az vmss disk
-  href: /cli/azure/vmss/disk
-- uid: az_vmss_disk_attach
-  name: az vmss disk attach
-  href: /cli/azure/vmss/disk#az_vmss_disk_attach
-- uid: az_vmss_disk_detach
-  name: az vmss disk detach
-  href: /cli/azure/vmss/disk#az_vmss_disk_detach
 - uid: az_vmss_extension
   name: az vmss extension
   href: /cli/azure/vmss/extension
@@ -4540,6 +2449,9 @@ references:
 - uid: az_vmss_list_instance_connection_info
   name: az vmss list-instance-connection-info
   href: /cli/azure/vmss#az_vmss_list_instance_connection_info
+- uid: az_vmss_list_instance_public_ips
+  name: az vmss list-instance-public-ips
+  href: /cli/azure/vmss#az_vmss_list_instance_public_ips
 - uid: az_vmss_list_instances
   name: az vmss list-instances
   href: /cli/azure/vmss#az_vmss_list_instances
@@ -4558,9 +2470,6 @@ references:
 - uid: az_vmss_nic_show
   name: az vmss nic show
   href: /cli/azure/vmss/nic#az_vmss_nic_show
-- uid: az_vmss_reimage
-  name: az vmss reimage
-  href: /cli/azure/vmss#az_vmss_reimage
 - uid: az_vmss_restart
   name: az vmss restart
   href: /cli/azure/vmss#az_vmss_restart
@@ -4588,6 +2497,15 @@ references:
 - uid: az_webapp
   name: az webapp
   href: /cli/azure/webapp
+- uid: az_webapp_auth
+  name: az webapp auth
+  href: /cli/azure/webapp/auth
+- uid: az_webapp_auth_show
+  name: az webapp auth show
+  href: /cli/azure/webapp/auth#az_webapp_auth_show
+- uid: az_webapp_auth_update
+  name: az webapp auth update
+  href: /cli/azure/webapp/auth#az_webapp_auth_update
 - uid: az_webapp_browse
   name: az webapp browse
   href: /cli/azure/webapp#az_webapp_browse
@@ -4696,6 +2614,15 @@ references:
 - uid: az_webapp_deployment
   name: az webapp deployment
   href: /cli/azure/webapp/deployment
+- uid: az_webapp_deployment_container
+  name: az webapp deployment container
+  href: /cli/azure/webapp/deployment/container
+- uid: az_webapp_deployment_container_config
+  name: az webapp deployment container config
+  href: /cli/azure/webapp/deployment/container#az_webapp_deployment_container_config
+- uid: az_webapp_deployment_container_show_cd_url
+  name: az webapp deployment container show-cd-url
+  href: /cli/azure/webapp/deployment/container#az_webapp_deployment_container_show_cd_url
 - uid: az_webapp_deployment_list_publishing_profiles
   name: az webapp deployment list-publishing-profiles
   href: /cli/azure/webapp/deployment#az_webapp_deployment_list_publishing_profiles
@@ -4762,6 +2689,9 @@ references:
 - uid: az_webapp_log_download
   name: az webapp log download
   href: /cli/azure/webapp/log#az_webapp_log_download
+- uid: az_webapp_log_show
+  name: az webapp log show
+  href: /cli/azure/webapp/log#az_webapp_log_show
 - uid: az_webapp_log_tail
   name: az webapp log tail
   href: /cli/azure/webapp/log#az_webapp_log_tail
